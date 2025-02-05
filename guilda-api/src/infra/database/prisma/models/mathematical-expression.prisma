@@ -1,0 +1,8 @@
+model MathematicalExpression {
+  id         Int       @id @default(autoincrement())
+  expression String
+  createdAt  DateTime  @default(now()) @map("created_at")
+  deletedAt  DateTime? @map("deleted_at")
+
+  @@map("GDA_MATHEMATICAL_EXPRESSIONS")
+}

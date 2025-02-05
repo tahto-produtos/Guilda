@@ -1,0 +1,18 @@
+model Sector {
+  id                               Int                                @id @map("IDGDA_SECTOR")
+  name                             String                             @map("NAME")
+  level                            Int                                @map("LEVEL")
+  sector                           Int?                               @map("SECTOR")
+  subSector                        Int?                               @map("SUBSECTOR")
+  createdAt                        DateTime                           @default(now()) @map("CREATED_AT")
+  deletedAt                        DateTime?                          @map("DELETED_AT")
+  GdaConsolidateCheckingAccount    GdaConsolidateCheckingAccount[]
+  consolidatedResult               ConsolidatedResult[]
+  HistoryIndicatorGroup            HistoryIndicatorGroup[]
+  historyIndicatorSectors          HistoryIndicatorSector[]
+  BasketIndicator                  BasketIndicator[]
+  HistoryMonetizationRecalculation HistoryMonetizationRecalculation[]
+  HistoryScoreIndicatorSector      HistoryScoreIndicatorSector[]
+
+  @@map("GDA_SECTOR")
+}

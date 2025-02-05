@@ -1,0 +1,19 @@
+model ConsolidatedResult {
+  id             Int           @id @default(autoincrement())
+  resultId       Int?
+  sectorId       Int?
+  value          Float
+  createdAt      DateTime      @default(now()) @map("created_at")
+  collaboratorId Int?
+  goal           Float?
+  indicatorId    Int?
+  transactionId  Int?
+  collaborator   Collaborator? @relation(fields: [collaboratorId], references: [id])
+  indicator      Indicator?    @relation(fields: [indicatorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  result         Result?       @relation(fields: [resultId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  sector         Sector?       @relation(fields: [sectorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  transaction    Transaction?  @relation(fields: [transactionId], references: [id])
+
+  @@index([collaboratorId, transactionId, indicatorId])
+  @@map("GDA_CONSOLIDATED_RESULTS")
+}

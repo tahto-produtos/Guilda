@@ -1,0 +1,9 @@
+model Visibility {
+  id        Int        @id @default(autoincrement()) @map("IDGDA_VISIBILITY")
+  type      String     @map("TYPE")
+  value     String     @map("VALUE")
+  productId Int        @map("GDA_PRODUCT_IDGDA_PRODUCT_ID")
+  product   GdaProduct @relation(fields: [productId], references: [id])
+
+  @@map("GDA_VISIBILITY")
+}

@@ -1,0 +1,35 @@
+model GdaOrder {
+  id                   Int               @id @default(autoincrement()) @map("IDGDA_ORDER")
+  orderById            Int               @map("ORDER_BY")
+  deliveredById        Int?              @map("DELIVERED_BY")
+  orderStatusId        Int               @map("GDA_ORDER_STATUS_IDGDA_ORDER_STATUS")
+  createdAt            DateTime          @default(now()) @map("CREATED_AT")
+  deletedAt            DateTime?         @map("DELETED_AT")
+  codOrder             String?           @map("COD_ORDER")
+  deliveredAt          DateTime?         @map("DELIVERED_AT")
+  dueAt                DateTime?         @map("DUE_AT")
+  observationDelivered String?           @map("OBSERVATION_DELIVERED")
+  observationOrder     String?           @map("OBSERVATION_ORDER")
+  reasonPurchase       String?           @map("REASON_PURCHASE")
+  orderAt              DateTime?         @map("ORDER_AT")
+  canceledById         Int?              @map("CANCELED_BY")
+  canceledAt           DateTime?         @map("CANCELED_AT")
+  releasedAt           DateTime?         @map("RELEASED_AT")
+  releasedById         Int?              @map("RELEASED_BY")
+  idGroup              Int?              @map("IDGROUP")
+  totalPrice           Float             @default(0) @map("TOTAL_PRICE")
+  lastUpdatedAt        DateTime?         @map("LAST_UPDATED_AT")
+  lastUpdatedId        Int?              @map("LAST_UPDATED_BY")
+  CheckingAccount      CheckingAccount[]
+  deliveredBy          Collaborator?     @relation("collaborator_delivered_orders", fields: [deliveredById], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  orderStatus          GdaOrderStatus    @relation(fields: [orderStatusId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  orderBy              Collaborator      @relation("collaborator_orders", fields: [orderById], references: [id], onUpdate: NoAction)
+  canceledBy           Collaborator?     @relation("collaborator_canceled_by", fields: [canceledById], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  releasedBy           Collaborator?     @relation("collaborator_released_orders", fields: [releasedById], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  lastUpdatedBy        Collaborator?     @relation("collaborator_updated_orders", fields: [lastUpdatedId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  GdaOrderProduct      GdaOrderProduct[]
+  historyProduct       HistoryProduct[]  @relation("history_product_has_order")
+  CollaboratorVoucher  CollaboratorVoucher[]
+
+  @@map("GDA_ORDER")
+}

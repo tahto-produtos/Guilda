@@ -1,0 +1,20 @@
+model HistoryProduct {
+  id                                              Int                      @id @default(autoincrement()) @map("IDGDA_PRODUCT")
+  productId                                       Int?                     @map("GDA_PRODUCT_IDGDA_PRODUCT")
+  orderId                                         Int?                     @map("GDA_ORDER_IDGDA_ORDER")
+  productStatusId                                 Int?                     @map("GDA_PRODUCT_STATUS_IDGDA_PRODUCT_STATUS")
+  updatedAt                                       DateTime?                @map("UPDATED_AT")
+  updatedId                                       Int?                     @map("GDA_COLLABORATOR_IDGDA_COLLABORATORS")
+  description                                     String                   @map("DESCRIPTION")                         
+  price                                           Float               
+  highlight                                       Int                      @default(0) @map("HIGHLIGHT")
+  publicationDate                                 DateTime?                @map("PUBLICATION_DATE")
+  productsStatus                                  ProductStatus?           @relation(fields: [productStatusId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  product                                         GdaProduct?              @relation("history_product_has_product", fields: [productId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  order                                           GdaOrder?                @relation("history_product_has_order", fields: [orderId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  collaboratorUpdatedHistoryProductBy             Collaborator?            @relation("history_product_has_collaborator_updated", fields: [updatedId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  createdAt                                       DateTime                 @default(now()) @map("CREATED_AT")
+  deletedAt                                       DateTime?                @map("DELETED_AT")
+  
+  @@map("GDA_HISTORY_PRODUCT")
+}

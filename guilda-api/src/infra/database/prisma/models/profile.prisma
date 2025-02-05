@@ -1,0 +1,12 @@
+model Profile {
+  id                Int                 @id(map: "GDA_PRFILES_pkey") @default(autoincrement())
+  profile           String
+  level             Int
+  hierarchyId       Int                 @map("hierarchy_id")
+  createdAt         DateTime            @default(now(), map: "GDA_PRFILES_created_at_df") @map("created_at")
+  deletedAt         DateTime?           @map("deleted_at")
+  ProfilePermission ProfilePermission[]
+  hierarchy         Hierarchy           @relation(fields: [hierarchyId], references: [id], map: "GDA_PRFILES_hierarchy_id_fkey")
+
+  @@map("GDA_PROFILES")
+}

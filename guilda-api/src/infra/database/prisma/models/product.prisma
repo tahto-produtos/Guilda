@@ -1,0 +1,13 @@
+model Product {
+  id             Int          @id @default(autoincrement()) @map("IDGDA_PRODUCT")
+  description    String
+  code           String
+  createdAt      DateTime     @default(now()) @map("created_at")
+  deletedAt      DateTime?    @map("deleted_at")
+  collaboratorId Int
+  price          Float
+  registeredBy   Collaborator @relation(fields: [collaboratorId], references: [id])
+  GdaProductItem GdaProductItem[]
+
+  @@map("GDA_PRODUCTS")
+}

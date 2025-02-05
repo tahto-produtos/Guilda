@@ -1,0 +1,9 @@
+model GdaOrderStatus {
+  id        Int        @id @default(autoincrement()) @map("IDGDA_ORDER_STATUS")
+  status    String     @map("STATUS")
+  createdAt DateTime   @default(now()) @map("CREATED_AT")
+  deletedAt DateTime?  @map("DELETED_AT")
+  GdaOrder  GdaOrder[]
+
+  @@map("GDA_ORDER_STATUS")
+}

@@ -1,0 +1,37 @@
+export interface MyUser {
+    active: string;
+    admissionDate: string;
+    birthdate: string;
+    city: string;
+    contractorControlId: string;
+    country: string;
+    createdAt: string;
+    deletedAt: string;
+    dependantNumber: string;
+    email: string;
+    entryDate: string;
+    entryTime: string;
+    firstLogin: boolean;
+    genre: string;
+    hierarchy: string;
+    hierarchyId: number;
+    homeBased: boolean;
+    homeNumber: string;
+    id: number;
+    identification: string;
+    isAdmin: boolean;
+    maritalStatus: number;
+    name: string;
+    neighborhood: string;
+    number: number;
+    parent: { name: string; registry: string } | null;
+    permissions: [];
+    phoneNumber: string;
+    profileCollaboratorAdministrationId: number;
+    registry: string;
+    schooling: number;
+    state: string;
+    street: string;
+    transactionId: number;
+    updatedAt: string;
+}

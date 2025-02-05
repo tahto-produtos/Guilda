@@ -1,0 +1,10 @@
+export enum Hierarchies {
+  'AGENTE' = 'AGENTE',
+  'SUPERVISOR' = 'SUPERVISOR',
+  'COORDENADOR' = 'COORDENADOR',
+  'GERENTE II' = 'GERENTE II',
+  'GERENTE I' = 'GERENTE I',
+  'DIRETOR' = 'DIRETOR',
+  'CEO' = 'CEO',
+  'ADMINISTRADOR' = 'ADMINISTRADOR',
+}

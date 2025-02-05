@@ -1,0 +1,12 @@
+model Transaction {
+  id                 Int                  @id @default(autoincrement()) @map("IDGDA_TRANSACTION")
+  identification     String               @map("TRANSACTIONID")
+  createdAt          DateTime             @default(now()) @map("CREATED_AT")
+  updatedAt          DateTime?            @map("UPDATED_AT")
+  complete           Boolean              @map("COMPLETE")
+  status             String               @default("READY") @map("STATUS")
+  ConsolidatedResult ConsolidatedResult[]
+  Result             Result[]
+
+  @@map("GDA_TRANSACTION")
+}

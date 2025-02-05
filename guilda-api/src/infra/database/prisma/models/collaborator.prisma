@@ -1,0 +1,66 @@
+model Collaborator {
+  id                                                         Int                                                    @id @default(autoincrement()) @map("IDGDA_COLLABORATORS")
+  name                                                       String                                                 @map("NAME")
+  identification                                             String                                                 @map("COLLABORATORIDENTIFICATION")
+  registry                                                   String                                                 @map("MATRICULA")
+  genre                                                      String                                                 @map("GENRE")
+  birthdate                                                  DateTime                                               @map("BIRTHDATE")
+  admissionDate                                              DateTime                                               @map("ADMISSIONDATE")
+  maritalStatus                                              Int                                                    @map("CIVILSTATE")
+  active                                                     String?                                                @map("ACTIVE")
+  email                                                      String?                                                @map("EMAIL")
+  street                                                     String?                                                @map("STREET")
+  number                                                     Int?                                                   @map("NUMBER")
+  neighborhood                                               String?                                                @map("NEIGHBORHOOD")
+  city                                                       String?                                                @map("CITY")
+  state                                                      String?                                                @map("STATE")
+  country                                                    String?                                                @map("COUNTRY")
+  homeNumber                                                 String?                                                @map("HOMENUMBER")
+  phoneNumber                                                String?                                                @map("PHONENUMBER")
+  schooling                                                  Int?                                                   @map("SCHOOLING")
+  contractorControlId                                        String?                                                @map("CONTRACTORCONTROLID")
+  dependantNumber                                            String?                                                @map("DEPENDANTNUMBER")
+  createdAt                                                  DateTime                                               @default(now()) @map("CREATED_AT")
+  deletedAt                                                  DateTime?                                              @map("DELETED_AT")
+  updatedAt                                                  DateTime?                                              @map("UPDATED_AT")
+  transactionId                                              BigInt?                                                @map("TRANSACTIONID")
+  entryDate                                                  DateTime?                                              @map("ENTRYDATE")
+  entryTime                                                  DateTime?                                              @map("ENTRY_TIME") @db.Time
+  homeBased                                                  Boolean?                                               @map("HOME_BASED")
+  profileCollaboratorAdministrationId                        Int?                                                   @map("PROFILE_COLLABORATOR_ADMINISTRATIONID")
+  firstLogin                                                 Boolean                                                @default(true) @map("FIRST_LOGIN")
+  CheckingAccount                                            CheckingAccount[]
+  CollaboratorVoucher                                        CollaboratorVoucher[]
+  ConsolidatedResult                                         ConsolidatedResult[]
+  HistoryCollaboratorSector                                  HistoryCollaboratorSector[]
+  historyHierarchyRelationship                               HistoryHierarchyRelationship[]                         @relation("collaborator_has_hierarchy")
+  historyParentRelationship                                  HistoryHierarchyRelationship[]                         @relation("collaborator_has_parent")
+  collaboratorAlteredByHistoryIndicatorSector                HistoryIndicatorSector[]                               @relation("collaborator_history_indicator_sector")
+  delivers                                                   GdaOrder[]                                             @relation("collaborator_delivered_orders")
+  orders                                                     GdaOrder[]                                             @relation("collaborator_orders")
+  releases                                                   GdaOrder[]                                             @relation("collaborator_released_orders")
+  lastUpdateds                                               GdaOrder[]                                             @relation("collaborator_updated_orders")
+  Product                                                    Product[]
+  results                                                    Result[]
+  ShoppingCart                                               ShoppingCart[]
+  Credentials                                                Credentials[]
+  collaboratorUpdatedHistoryProductBy                        HistoryProduct[]                                       @relation("history_product_has_collaborator_updated")
+  createdCheckingAccount                                     CheckingAccount[]                                      @relation("created-by")
+  collaboratorHistoryActive                                  HistoryCollaboratorActive[]                            @relation("history_collaborator_active_has_collaborator")
+  HistoryMonetizationRecalculation                           HistoryMonetizationRecalculation[]
+  profileCollaboratorAdministration                          ProfileCollaboratorAdministration?                     @relation(fields: [profileCollaboratorAdministrationId], references: [id])
+  HistoryProfileCollaboratorAdministrationRelationship       HistoryProfileCollaboratorAdministrationRelationship[] @relation("collaborator_has_administrator")
+  HistoryParentProfileCollaboratorAdministrationRelationship HistoryProfileCollaboratorAdministrationRelationship[] @relation("collaborator_has_administrator_parent")
+  collaboratorLogIndicatorImport                             LogIndicatorImport[]                                   @relation("log_indicator_import_has_collaborator")
+  Supplier                                                   Supplier[]
+  Categories                                                 Categories[]
+  Sizes                                                      Sizes[]
+  ProductDetail                                              GdaDetails[]
+  ProductGroup                                               ProductGroup[]
+  GdaTypes                                                   GdaTypes[]
+  HistoryScoreIndicatorSector                                HistoryScoreIndicatorSector[]                           @relation("collaborator_history_score_indicator_sector")
+  Holidays                                                   Holidays[]
+  GdaOrder                                                   GdaOrder[]                                              @relation("collaborator_canceled_by")
+  productColors                                              productColors[]
+  @@map("GDA_COLLABORATORS")
+}

@@ -1,0 +1,12 @@
+model ProfilePermission {
+  id                                     Int                                  @id @default(autoincrement())
+  permissionId                           Int                                  @map("permission_id")
+  profileId                              Int?                                 @map("profile_id")
+  profileCollaboratorAdministrationId    Int?                                 @map("profile_collaborator_administration_id")
+  createdAt                              DateTime                             @default(now()) @map("created_at")
+  permission                             Permission                           @relation(fields: [permissionId], references: [id])
+  profile                                Profile?                             @relation(fields: [profileId], references: [id])
+  profileCollaboratorAdministration      ProfileCollaboratorAdministration?   @relation(fields: [profileCollaboratorAdministrationId], references: [id])
+
+  @@map("GDA_PROFILE_PERMISSIONS")
+}

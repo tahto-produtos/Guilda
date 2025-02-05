@@ -1,0 +1,14 @@
+model Voucher {
+  id                  Int                   @id @default(autoincrement()) @map("IDGDA_VOUCHERS")
+  productId           Int
+  stockId             Int?
+  voucher             String
+  status              String                @default("AVAILABLE")
+  voucherValidity     DateTime?
+  CollaboratorVoucher CollaboratorVoucher[]
+  GdaOrderProduct     GdaOrderProduct[]
+  product             GdaProduct            @relation(fields: [productId], references: [id])
+  stock               GdaStock?             @relation(fields: [stockId], references: [id])
+
+  @@map("GDA_VOUCHERS")
+}

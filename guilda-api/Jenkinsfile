@@ -1,0 +1,67 @@
+pipeline {
+  agent {
+    node {
+      label 'workspace-api'
+      customWorkspace 'C:/Users/Administrator/Documents/Guilda/guilda-workspace/guilda-api'
+    }
+  }
+ 
+  tools {nodejs "node"}
+ 
+  stages {
+    stage('Cloning Git Repository') {
+      when {
+        expression { return params.current_status == "closed" && params.merged == true && params.branch == "master" }
+      }
+      steps {
+        git 'https://github.com/Focare/guilda-api.git'
+      }
+    }
+      
+    stage('Install All Dependencies') {
+      when {
+        expression { return params.current_status == "closed" && params.merged == true && params.branch == "master" }
+      }
+      steps {
+        bat 'npm install'
+      }
+    }
+
+    /* stage('Update Database') {
+      when {
+        expression { return params.current_status == "closed" && params.merged == true && params.branch == "master" }
+      }
+      steps {
+        bat 'npx prisma generate'
+        bat 'npx prisma migrate deploy'
+      }
+    } */
+
+    //stage('Run Seed') {
+    //  when {
+    //    expression { return params.current_status == "closed" && params.merged == true && params.branch == "master" }
+    //  }
+    //  steps {
+    //    bat 'npm run seed'
+    //  }
+    //}
+
+    stage('Build Application') {
+      when {
+        expression { return params.current_status == "closed" && params.merged == true && params.branch == "master" }
+      }
+      steps {
+        bat 'npm run build'
+      }
+    }
+
+    stage('PM2 Reload API') {
+      when {
+        expression { return params.current_status == "closed" && params.merged == true && params.branch == "master" }
+      }
+      steps {
+        bat 'npx pm2 reload api'
+      }
+    }
+  }
+}

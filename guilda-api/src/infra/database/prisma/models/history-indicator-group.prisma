@@ -1,0 +1,21 @@
+model HistoryIndicatorGroup {
+  id                       Int           @id @default(autoincrement())
+  indicatorId              Int           @map("indicator_id")
+  sectorId                 Int           @map("sector_id")
+  metricMin                Float?         @map("metric_min")
+  monetization             Int?       @map("monetization")
+  groupId                  Int
+  metricMinNight           Float?       @map("METRIC_MIN_NIGHT")
+  metricMinLatenight       Float?       @map("METRIC_MIN_LATENIGHT")
+  monetizationNight        Float?       @map("MONETIZATION_NIGHT")
+  monetizationLatenight    Float?       @map("MONETIZATION_LATENIGHT")
+  ended_at                 DateTime?     @map("ENDED_AT")
+  started_at               DateTime?     @map("STARTED_AT")
+  createdAt                DateTime      @default(now()) @map("created_at")
+  deletedAt                DateTime?     @map("deleted_at")
+  group                    Group         @relation(fields: [groupId], references: [id])
+  indicator                Indicator     @relation(fields: [indicatorId], references: [id])
+  sector                   Sector        @relation(fields: [sectorId], references: [id])
+
+  @@map("GDA_HISTORY_INDICATOR_GROUP")
+}

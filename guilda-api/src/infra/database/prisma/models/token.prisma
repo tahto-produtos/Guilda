@@ -1,0 +1,7 @@
+model Token {
+  id     Int     @id(map: "PK_dbo.GDA_TOKEN") @default(autoincrement()) @map("IDGDA_TOKEN")
+  token  String? @map("TOKEN") @db.NVarChar(Max)
+  active Int     @map("ACTIVE")
+
+  @@map("GDA_TOKEN")
+}

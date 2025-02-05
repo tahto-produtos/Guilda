@@ -1,0 +1,16 @@
+model LogIndicatorImport {
+  id                            Int               @id @default(autoincrement()) @map("INDICATOR_ID")
+  collaboratorId                Int?              @map("COLABORATOR_ID")
+  codeImport                    Int               @map("CODE_IMPORT")
+  code                          Int?              @map("CODE")
+  name                          String?           @map("NAME")
+  description                   String?           @map("DESCRIPTION")
+  type                          String?           @map("TYPE")
+  status                        Boolean?          @map("STATUS")
+  weight                        Int?              @map("WEIGHT")
+  createdAt                     DateTime          @default(now()) @map("CREATED_AT")
+  deletedAt                     DateTime?         @map("DELETED")
+  collaborator                  Collaborator?     @relation("log_indicator_import_has_collaborator",fields: [collaboratorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+ 
+  @@map("GDA_LOG_INDICATOR_IMPORT")
+}

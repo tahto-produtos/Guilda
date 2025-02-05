@@ -1,0 +1,5 @@
+model GDA_CONFIG {
+  IDGDA_CONFIG Int     @id(map: "PK_dbo.GDA_CONFIG") @default(autoincrement())
+  NAME         String? @db.NVarChar(Max)
+  VALUE        String? @db.NVarChar(Max)
+}

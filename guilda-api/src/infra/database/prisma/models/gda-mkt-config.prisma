@@ -1,0 +1,9 @@
+model GdaMktConfig {
+  id        Int       @id @default(autoincrement()) @map("IDGDA_MKT_CONFIG")
+  type      String    @map("TYPE")
+  value     Int       @map("VALUE")
+  createdAt DateTime  @default(now()) @map("CREATED_AT")
+  deletedAt DateTime? @map("DELETED_AT")
+
+  @@map("GDA_MKT_CONFIG")
+}

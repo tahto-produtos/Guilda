@@ -1,0 +1,40 @@
+model GdaProduct {
+  id                     Int                      @id @default(autoincrement()) @map("IDGDA_PRODUCT")
+  code                   String                   @map("CODE")
+  comercialName          String?                  @map("COMERCIAL_NAME")
+  description            String                   @map("DESCRIPTION")
+  price                  Float
+  quantity               Float?
+  registeredBy           Int                      @map("REGISTERED_BY")
+  createdAt              DateTime                 @default(now()) @map("CREATED_AT")
+  updatedAt              DateTime?                @map("UPDATED_AT")
+  deletedAt              DateTime?                @map("DELETED_AT")
+  highlight              Boolean                  @default(false) @map("HIGHLIGHT")
+  publicationDate        DateTime?                @map("PUBLICATION_DATE")
+  expirationDate         DateTime?                @map("EXPIRATION_DATE")
+  validity               DateTime?                @map("VALIDITY_DATE")
+  saleLimit              Int?                     @map("SALE_LIMIT")
+  type                   String                   @default("PHYSICAL")
+  categoryId             Int?                     @map("GDA_CATEGORY_IDGDA_CATEGORY")
+  category               Categories?              @relation(fields: [categoryId], references: [id])
+  sizeId                 Int?                     @map("GDA_SIZE_IDGDA_SIZE")
+  size                   Sizes?                   @relation(fields: [sizeId], references: [id])
+  detailId               Int?                     @map("GDA_DETAIL_IDGDA_DETAIL")
+  detail                 GdaDetails?              @relation(fields: [detailId], references: [id])
+  typeId                 Int?                     @map("GDA_TYPE_IDGDA_TYPE")
+  typeProduct            GdaTypes?                @relation(fields: [typeId], references: [id])
+  groupId                Int?                     @map("GDA_GROUP_IDGDA_GROUP")
+  group                  ProductGroup?            @relation(fields: [groupId], references: [id])
+  GdaHistoryStockProduct GdaHistoryStockProduct[]
+  GdaOrderProduct        GdaOrderProduct[]
+  productImages          ProductImage[]
+  GdaStockProduct        GdaStockProduct[]
+  vouchers               Voucher[]
+  productStatusId        Int?                     @map("GDA_PRODUCT_STATUS_IDGDA_PRODUCT_STATUS")
+  productsStatus         ProductStatus?           @relation(fields: [productStatusId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  HistoryProduct         HistoryProduct[]         @relation("history_product_has_product")
+  Visibility             Visibility[]
+  productColors          productColors[]
+
+  @@map("GDA_PRODUCT")
+}

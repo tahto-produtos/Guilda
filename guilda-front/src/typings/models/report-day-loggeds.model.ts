@@ -1,0 +1,33 @@
+export class ReportDayLoggedsModel {
+    DATA_ESCALA!: string;
+    DATA_ACESSO!: string;
+    DATA_ATUALIZACAO!: string;
+    BC!: string;
+    NOME!: string;
+    CARGO!: string;
+    ESCALA!: string;
+    ACESSO!: string;
+    COD_INDICADOR!: string;
+    INDICADOR!: string;
+    TEMPO_LOGADO!: string;
+    MATRICULA_SUPERVISOR!: string;
+    NOME_SUPERVISOR!: string;
+    MATRICULA_COORDENADOR!: string;
+    NOME_COORDENADOR!: string;
+    MATRICULA_GERENTE2!: string;
+    NOME_GERENTE2!: string;
+    MATRICULA_GERENTE1!: string;
+    NOME_GERENTE1!: string;
+    MATRICULA_DIRETOR!: string;
+    NOME_DIRETOR!: string;
+    MATRICULA_CEO!: string;
+    NOME_CEO!: string;
+    CODGIP!: string;
+    SETOR!: string;
+    CODGIP_SUBSETOR!: string;
+    SUBSETOR!: string;
+    TURNO!: string;
+    SITE!: string;
+    HOME_BASED!: string;
+    CLIENTE!: string;
+}

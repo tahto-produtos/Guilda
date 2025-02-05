@@ -1,0 +1,8 @@
+model LogRequest {
+  id      Int     @id(map: "PK_dbo.GDA_LOGREQUEST") @default(autoincrement()) @map("IDGDA_LOGREQUEST")
+  request String? @map("REQUEST") @db.NVarChar(Max)
+  route   String  @map("ROUTE") @db.NVarChar(200)
+  return  Int     @map("RETURN")
+
+  @@map("GDA_LOGREQUEST")
+}

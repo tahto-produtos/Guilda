@@ -1,0 +1,14 @@
+
+
+model ProductGroup {
+  id                            Int                             @id @default(autoincrement()) @map("IDGDA_PRODUCT_GROUP")
+  groupName                     String                          @map("PRODUCT_GROUP_NAME")
+  createdAt                     DateTime                        @default(now()) @map("CREATED_AT")
+  ord                           Int?                            @map("ORD")
+  deletedAt                     DateTime?                       @map("DELETED_AT")
+  createdByCollaboratorId       Int
+  createBy                      Collaborator                    @relation(fields: [createdByCollaboratorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  GdaProduct                    GdaProduct[]
+
+  @@map("GDA_PRODUCT_GROUP")
+}

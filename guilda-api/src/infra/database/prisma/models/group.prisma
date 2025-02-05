@@ -1,0 +1,13 @@
+model Group {
+  id                    Int                     @id @default(autoincrement())
+  name                  String
+  description           String
+  alias                 String                  @unique
+  uploadId              Int
+  createdAt             DateTime                @default(now()) @map("created_at")
+  order                 Int?                    @map("ORDER")
+  image                 Upload                  @relation(fields: [uploadId], references: [id])
+  historyIndicatorGroup HistoryIndicatorGroup[]
+
+  @@map("GDA_GROUPS")
+}

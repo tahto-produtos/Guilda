@@ -1,0 +1,13 @@
+model BasketIndicator {
+  id                        Int                  @id @default(autoincrement()) @map("IDGDA_BASKET_INDICATOR")
+  sectorId                  Int                  @map("SECTOR_ID")
+  indicatorId               Int                  @map("INDICATOR_ID")
+  date                      DateTime             @default(now()) @map("DATE")
+  weight                    Int?                 @map("WEIGHT") @default(1)
+  monetizationG1            Int                  @map("MONETIZATION_G1")
+  createdAt                 DateTime             @default(now()) @map("CREATED_AT")
+  sector                    Sector               @relation(fields: [sectorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  indicator                 Indicator            @relation(fields: [indicatorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@map("GDA_BASKET_INDICATOR")
+}

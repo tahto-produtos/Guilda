@@ -1,0 +1,1895 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|c:\\tfs guilda\\guilda\\apirepositorio\\apirepositorio\\class\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\class\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\quiz\\reportquizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\quiz\\reportquizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ApiC||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\profile\\returnhierarchyprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\profile\\returnhierarchyprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\profile\\listprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\profile\\listprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\profile\\listprofilecollaboratorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\profile\\listprofilecollaboratorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\profile\\createprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\profile\\createprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\tables\\hierarchycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\tables\\hierarchycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\class\\returntables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\class\\returntables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\user\\resetpasswordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\user\\resetpasswordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\marketing place\\reports\\exportmanageinventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\marketing place\\reports\\exportmanageinventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\monetization expired\\monetizationconfigdaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\monetization expired\\monetizationconfigdaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\monetization expired\\listmonetizationexpiredcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\monetization expired\\listmonetizationexpiredcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\monetization expired\\listmonetizationconfigtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\monetization expired\\listmonetizationconfigtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\monetization expired\\listmonetizationconfigdaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\monetization expired\\listmonetizationconfigdaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\monetization expired\\exportfilemonetizationexpireddatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\monetization expired\\exportfilemonetizationexpireddatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\notification\\reportnotificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\notification\\reportnotificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\notification\\loadmynotificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\notification\\loadmynotificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\notification\\loadlibrarynotificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\notification\\loadlibrarynotificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\notification\\filtermynotificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\notification\\filtermynotificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\operacional campaign\\simulatoroperationalcampaigncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\operacional campaign\\simulatoroperationalcampaigncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\operacional campaign\\reportoperationalcampaigncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\operacional campaign\\reportoperationalcampaigncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\operacional campaign\\loadmyoperationalcampaigncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\operacional campaign\\loadmyoperationalcampaigncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\operacional campaign\\loadlibraryoperationalcampaigncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\operacional campaign\\loadlibraryoperationalcampaigncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\operacional campaign\\listsimulatoroperationalcampaigncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\operacional campaign\\listsimulatoroperationalcampaigncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\operacional campaign\\listotheroperationalcampaigncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\operacional campaign\\listotheroperationalcampaigncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\operacional campaign\\listoperationalcampaignavailablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\operacional campaign\\listoperationalcampaignavailablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\operacional campaign\\listalloperationalcampaigncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\operacional campaign\\listalloperationalcampaigncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\operacional campaign\\detailsoperationalcampaigncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\operacional campaign\\detailsoperationalcampaigncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\operacional campaign\\detailsinformationoperationalcampaigncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\operacional campaign\\detailsinformationoperationalcampaigncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\quiz\\loadmyquizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\quiz\\loadmyquizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\quiz\\loadlibraryquizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\quiz\\loadlibraryquizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\quiz\\listquizquestioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\quiz\\listquizquestioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\quiz\\listquizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\quiz\\listquizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\quiz\\listquizanswercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\quiz\\listquizanswercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\quiz\\filtertypequestionquizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\quiz\\filtertypequestionquizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\tables\\veteranonovatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\tables\\veteranonovatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\tables\\subsectorsbysectorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\tables\\subsectorsbysectorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\tables\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\tables\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\tables\\sectorsgroupsdatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\tables\\sectorsgroupsdatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\tables\\sectorsdatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\tables\\sectorsdatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\tables\\sectorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\tables\\sectorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\tables\\sectorsbyhierarchycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\tables\\sectorsbyhierarchycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\tables\\productvisibilitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\tables\\productvisibilitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\tables\\productgeneralcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\tables\\productgeneralcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\tables\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\tables\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\tables\\personasitecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\tables\\personasitecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\tables\\personacitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\tables\\personacitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\tables\\periodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\tables\\periodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\tables\\metricbysectorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\tables\\metricbysectorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\tables\\listhierarchybyprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\tables\\listhierarchybyprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\tables\\listcollaboratorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\tables\\listcollaboratorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\tables\\indicatorsbysectorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\tables\\indicatorsbysectorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\tables\\homefloorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\tables\\homefloorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\tables\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\tables\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\tables\\collaboratorresultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\tables\\collaboratorresultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\tables\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\tables\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\home\\resultconsolidatedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\home\\resultconsolidatedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\home\\resultconsolidatedbyhierarchiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\home\\resultconsolidatedbyhierarchiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\home\\reporthomeresultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\home\\reporthomeresultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\home\\reportconsolidatedsectorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\home\\reportconsolidatedsectorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\home\\rankingoperacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\home\\rankingoperacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\home\\listdayloggedscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\home\\listdayloggedscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\home\\dayloggedscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\home\\dayloggedscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\feedback\\reportfeedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\feedback\\reportfeedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\feedback\\listtypepedagogicalescalecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\feedback\\listtypepedagogicalescalecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\feedback\\listpedagogicalescalecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\feedback\\listpedagogicalescalecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\feedback\\listmyfeedbackmandatorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\feedback\\listmyfeedbackmandatorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\feedback\\listmyfeedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\feedback\\listmyfeedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\feedback\\listgravitypedagogicalescalecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\feedback\\listgravitypedagogicalescalecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\feedback\\listfeedbacknotreceivedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\feedback\\listfeedbacknotreceivedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\feedback\\listfeedbackinfractioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\feedback\\listfeedbackinfractioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\feedback\\listfeedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\feedback\\listfeedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\feedback\\listdetailsfeedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\feedback\\listdetailsfeedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\climate\\listreporthierarchyclimatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\climate\\listreporthierarchyclimatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\climate\\listperiodclimatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\climate\\listperiodclimatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\climate\\listgrouphierarchyclimatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\climate\\listgrouphierarchyclimatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\climate\\listgroupclimatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\climate\\listgroupclimatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\climate\\listclimatereasoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\climate\\listclimatereasoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\climate\\listclimatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\climate\\listclimatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\action escalation\\reportactionescalationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\action escalation\\reportactionescalationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\action escalation\\loadlibraryactionescalationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\action escalation\\loadlibraryactionescalationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\action escalation\\loadactionescalationdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\action escalation\\loadactionescalationdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\action escalation\\indicatorperformanceactionescalationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\action escalation\\indicatorperformanceactionescalationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\action escalation\\hierarchyescalationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\action escalation\\hierarchyescalationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\store\\listcatalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\store\\listcatalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\store\\initialexpirationbasiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\store\\initialexpirationbasiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\store\\expirationbasiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\store\\expirationbasiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\monetization\\reportmonthdaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\monetization\\reportmonthdaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\monetization\\reportmonthconsolidatedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\monetization\\reportmonthconsolidatedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\monetization\\reportmonthadmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\monetization\\reportmonthadmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\indicator\\listnewindicatorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\indicator\\listnewindicatorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\indicator\\indicatormathematicalexpressionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\indicator\\indicatormathematicalexpressionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\stock\\stockmovementlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\stock\\stockmovementlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\stock\\stockinputquantitylistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\stock\\stockinputquantitylistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\gallery\\verifyfileinproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\gallery\\verifyfileinproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\display\\listdisplayproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\display\\listdisplayproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\metrics\\inputmassivemetriccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\metrics\\inputmassivemetriccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\api integration\\listpainelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\api integration\\listpainelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\api integration\\integracaoapiresultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\api integration\\integracaoapiresultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\reports\\ordersreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\reports\\ordersreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\permission\\permissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\permission\\permissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\indicator acess\\reportacessfeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\indicator acess\\reportacessfeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\financial summary\\financialsummarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\financial summary\\financialsummarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\blob\\listimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\blob\\listimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\persona\\user\\personashowusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\persona\\user\\personashowusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\persona\\reaction\\personalistreactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\persona\\reaction\\personalistreactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\persona\\infuser\\personainfusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\persona\\infuser\\personainfusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\persona\\follow\\personafollowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\persona\\follow\\personafollowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\class\\thread\\scheduledtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\class\\thread\\scheduledtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\testecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\testecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\persona\\accounts\\accountspersonacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\persona\\accounts\\accountspersonacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\class\\thread\\schedulednotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\class\\thread\\schedulednotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\marketing place\\buy\\releaseditemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\marketing place\\buy\\releaseditemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\quiz\\sendquizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\quiz\\sendquizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\apirepositorio\\controllers\\quiz\\createdquizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477FAA60-EDBD-4B37-8FE3-ECDE5875ED2F}|ApiRepositorio\\ApiC.csproj|solutionrelative:apirepositorio\\controllers\\quiz\\createdquizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ListProfileController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Profile\\ListProfileController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Profile\\ListProfileController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Profile\\ListProfileController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Profile\\ListProfileController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:55:26.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HierarchyController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\HierarchyController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Tables\\HierarchyController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\HierarchyController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Tables\\HierarchyController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:21:22.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "returnTables.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Class\\returnTables.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Class\\returnTables.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Class\\returnTables.cs",
+              "RelativeToolTip": "ApiRepositorio\\Class\\returnTables.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAYwFgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T19:28:04.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ListProfileCollaboratorsController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Profile\\ListProfileCollaboratorsController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Profile\\ListProfileCollaboratorsController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Profile\\ListProfileCollaboratorsController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Profile\\ListProfileCollaboratorsController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAxwCEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:55:14.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateProfileController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Profile\\CreateProfileController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Profile\\CreateProfileController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Profile\\CreateProfileController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Profile\\CreateProfileController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAuwCsAAABvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:54:46.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReportQuizController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Quiz\\ReportQuizController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Quiz\\ReportQuizController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Quiz\\ReportQuizController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Quiz\\ReportQuizController.cs",
+              "ViewState": "AQIAALUBAAAAAAAAAAAuwMYBAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T19:28:04.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Database.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Class\\Database.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Class\\Database.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Class\\Database.cs",
+              "RelativeToolTip": "ApiRepositorio\\Class\\Database.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T19:27:38.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReturnHierarchyProfileController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Profile\\ReturnHierarchyProfileController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Profile\\ReturnHierarchyProfileController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Profile\\ReturnHierarchyProfileController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Profile\\ReturnHierarchyProfileController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACEAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:55:40.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApiC",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\ApiC.csproj",
+              "RelativeDocumentMoniker": "ApiRepositorio\\ApiC.csproj",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\ApiC.csproj",
+              "RelativeToolTip": "ApiRepositorio\\ApiC.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-29T18:33:11.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ExportManageInventoryController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Marketing Place\\Reports\\ExportManageInventoryController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Marketing Place\\Reports\\ExportManageInventoryController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Marketing Place\\Reports\\ExportManageInventoryController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Marketing Place\\Reports\\ExportManageInventoryController.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAzwD0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:55:55.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ResetPasswordController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\User\\ResetPasswordController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\User\\ResetPasswordController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\User\\ResetPasswordController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\User\\ResetPasswordController.cs",
+              "ViewState": "AQIAAKoAAAAAAAAAAAAgwLcAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:57:25.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MonetizationConfigDayController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Monetization Expired\\MonetizationConfigDayController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Monetization Expired\\MonetizationConfigDayController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Monetization Expired\\MonetizationConfigDayController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Monetization Expired\\MonetizationConfigDayController.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAmwFIAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:53:49.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ListMonetizationExpiredController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Monetization Expired\\ListMonetizationExpiredController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Monetization Expired\\ListMonetizationExpiredController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Monetization Expired\\ListMonetizationExpiredController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Monetization Expired\\ListMonetizationExpiredController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAA1wDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:52:55.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ListMonetizationConfigTypeController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Monetization Expired\\ListMonetizationConfigTypeController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Monetization Expired\\ListMonetizationConfigTypeController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Monetization Expired\\ListMonetizationConfigTypeController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Monetization Expired\\ListMonetizationConfigTypeController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:52:20.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ListMonetizationConfigDayController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Monetization Expired\\ListMonetizationConfigDayController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Monetization Expired\\ListMonetizationConfigDayController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Monetization Expired\\ListMonetizationConfigDayController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Monetization Expired\\ListMonetizationConfigDayController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAC0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:51:48.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ExportFileMonetizationExpiredDateController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Monetization Expired\\ExportFileMonetizationExpiredDateController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Monetization Expired\\ExportFileMonetizationExpiredDateController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Monetization Expired\\ExportFileMonetizationExpiredDateController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Monetization Expired\\ExportFileMonetizationExpiredDateController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAkwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:51:06.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoadMyNotificationController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Notification\\LoadMyNotificationController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Notification\\LoadMyNotificationController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Notification\\LoadMyNotificationController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Notification\\LoadMyNotificationController.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:48:38.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoadLibraryNotificationController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Notification\\LoadLibraryNotificationController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Notification\\LoadLibraryNotificationController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Notification\\LoadLibraryNotificationController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Notification\\LoadLibraryNotificationController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAA1wC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:47:48.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FilterMyNotificationController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Notification\\FilterMyNotificationController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Notification\\FilterMyNotificationController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Notification\\FilterMyNotificationController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Notification\\FilterMyNotificationController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAkwCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:47:07.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SimulatorOperationalCampaignController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Operacional Campaign\\SimulatorOperationalCampaignController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Operacional Campaign\\SimulatorOperationalCampaignController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Operacional Campaign\\SimulatorOperationalCampaignController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Operacional Campaign\\SimulatorOperationalCampaignController.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:46:07.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ReportNotificationController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Notification\\ReportNotificationController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Notification\\ReportNotificationController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Notification\\ReportNotificationController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Notification\\ReportNotificationController.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAwFEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T19:06:56.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ReportOperationalCampaignController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Operacional Campaign\\ReportOperationalCampaignController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Operacional Campaign\\ReportOperationalCampaignController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Operacional Campaign\\ReportOperationalCampaignController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Operacional Campaign\\ReportOperationalCampaignController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAkwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:42:09.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoadMyOperationalCampaignController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Operacional Campaign\\LoadMyOperationalCampaignController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Operacional Campaign\\LoadMyOperationalCampaignController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Operacional Campaign\\LoadMyOperationalCampaignController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Operacional Campaign\\LoadMyOperationalCampaignController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAkwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:41:22.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoadLibraryOperationalCampaignController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Operacional Campaign\\LoadLibraryOperationalCampaignController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Operacional Campaign\\LoadLibraryOperationalCampaignController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Operacional Campaign\\LoadLibraryOperationalCampaignController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Operacional Campaign\\LoadLibraryOperationalCampaignController.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAkwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:40:47.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ListSimulatorOperationalCampaignController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Operacional Campaign\\ListSimulatorOperationalCampaignController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Operacional Campaign\\ListSimulatorOperationalCampaignController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Operacional Campaign\\ListSimulatorOperationalCampaignController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Operacional Campaign\\ListSimulatorOperationalCampaignController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAA5wC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:39:51.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ListOtherOperationalCampaignController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Operacional Campaign\\ListOtherOperationalCampaignController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Operacional Campaign\\ListOtherOperationalCampaignController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Operacional Campaign\\ListOtherOperationalCampaignController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Operacional Campaign\\ListOtherOperationalCampaignController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAkwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:39:21.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ListOperationalCampaignAvailableController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Operacional Campaign\\ListOperationalCampaignAvailableController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Operacional Campaign\\ListOperationalCampaignAvailableController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Operacional Campaign\\ListOperationalCampaignAvailableController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Operacional Campaign\\ListOperationalCampaignAvailableController.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAQwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:38:39.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ListAllOperationalCampaignController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Operacional Campaign\\ListAllOperationalCampaignController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Operacional Campaign\\ListAllOperationalCampaignController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Operacional Campaign\\ListAllOperationalCampaignController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Operacional Campaign\\ListAllOperationalCampaignController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAkwC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:38:05.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DetailsOperationalCampaignController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Operacional Campaign\\DetailsOperationalCampaignController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Operacional Campaign\\DetailsOperationalCampaignController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Operacional Campaign\\DetailsOperationalCampaignController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Operacional Campaign\\DetailsOperationalCampaignController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAkwCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:37:03.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DetailsInformationOperationalCampaignController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Operacional Campaign\\DetailsInformationOperationalCampaignController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Operacional Campaign\\DetailsInformationOperationalCampaignController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Operacional Campaign\\DetailsInformationOperationalCampaignController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Operacional Campaign\\DetailsInformationOperationalCampaignController.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAQwD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:35:53.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LoadMyQuizController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Quiz\\LoadMyQuizController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Quiz\\LoadMyQuizController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Quiz\\LoadMyQuizController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Quiz\\LoadMyQuizController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAwDYAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:34:18.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "LoadLibraryQuizController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Quiz\\LoadLibraryQuizController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Quiz\\LoadLibraryQuizController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Quiz\\LoadLibraryQuizController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Quiz\\LoadLibraryQuizController.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAwwC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:33:22.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ListQuizQuestionController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Quiz\\ListQuizQuestionController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Quiz\\ListQuizQuestionController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Quiz\\ListQuizQuestionController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Quiz\\ListQuizQuestionController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACcAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:32:48.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ListQuizController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Quiz\\ListQuizController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Quiz\\ListQuizController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Quiz\\ListQuizController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Quiz\\ListQuizController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAQwDQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:31:46.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ListQuizAnswerController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Quiz\\ListQuizAnswerController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Quiz\\ListQuizAnswerController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Quiz\\ListQuizAnswerController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Quiz\\ListQuizAnswerController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:31:12.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "FilterTypeQuestionQuizController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Quiz\\FilterTypeQuestionQuizController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Quiz\\FilterTypeQuestionQuizController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Quiz\\FilterTypeQuestionQuizController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Quiz\\FilterTypeQuestionQuizController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAxwDYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:30:50.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "VeteranoNovatoController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\VeteranoNovatoController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Tables\\VeteranoNovatoController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\VeteranoNovatoController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Tables\\VeteranoNovatoController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAwDEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:30:25.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "SubSectorsBySectorController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\SubSectorsBySectorController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Tables\\SubSectorsBySectorController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\SubSectorsBySectorController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Tables\\SubSectorsBySectorController.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAswEcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:30:01.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "StockController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\StockController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Tables\\StockController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\StockController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Tables\\StockController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:29:34.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "SectorsGroupsDateController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\SectorsGroupsDateController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Tables\\SectorsGroupsDateController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\SectorsGroupsDateController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Tables\\SectorsGroupsDateController.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAQwDoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:29:04.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "SectorsDateController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\SectorsDateController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Tables\\SectorsDateController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\SectorsDateController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Tables\\SectorsDateController.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAQwDoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:28:34.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "SectorsController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\SectorsController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Tables\\SectorsController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\SectorsController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Tables\\SectorsController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:28:16.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "SectorsByHierarchyController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\SectorsByHierarchyController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Tables\\SectorsByHierarchyController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\SectorsByHierarchyController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Tables\\SectorsByHierarchyController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAwC4AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:27:48.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ProductVisibilityController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\ProductVisibilityController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Tables\\ProductVisibilityController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\ProductVisibilityController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Tables\\ProductVisibilityController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAwDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:25:58.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ProductGeneralController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\ProductGeneralController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Tables\\ProductGeneralController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\ProductGeneralController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Tables\\ProductGeneralController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:25:36.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\ProductController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Tables\\ProductController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\ProductController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Tables\\ProductController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAwCYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:25:04.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "PersonaSiteController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\PersonaSiteController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Tables\\PersonaSiteController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\PersonaSiteController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Tables\\PersonaSiteController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:24:23.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "PersonaCityController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\PersonaCityController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Tables\\PersonaCityController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\PersonaCityController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Tables\\PersonaCityController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:24:04.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "PeriodController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\PeriodController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Tables\\PeriodController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\PeriodController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Tables\\PeriodController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAwDEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:23:41.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "MetricBySectorController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\MetricBySectorController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Tables\\MetricBySectorController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\MetricBySectorController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Tables\\MetricBySectorController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:23:10.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ListHierarchyByProfileController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\ListHierarchyByProfileController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Tables\\ListHierarchyByProfileController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\ListHierarchyByProfileController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Tables\\ListHierarchyByProfileController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:22:52.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ListCollaboratorsController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\ListCollaboratorsController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Tables\\ListCollaboratorsController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\ListCollaboratorsController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Tables\\ListCollaboratorsController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:22:30.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IndicatorsBySectorsController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\IndicatorsBySectorsController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Tables\\IndicatorsBySectorsController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\IndicatorsBySectorsController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Tables\\IndicatorsBySectorsController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAwwDoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:22:08.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "HomeFloorController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\HomeFloorController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Tables\\HomeFloorController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\HomeFloorController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Tables\\HomeFloorController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAQwDEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:21:43.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "GroupController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\GroupController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Tables\\GroupController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\GroupController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Tables\\GroupController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAQwDEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:20:53.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "CollaboratorResultController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\CollaboratorResultController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Tables\\CollaboratorResultController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\CollaboratorResultController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Tables\\CollaboratorResultController.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAQwC0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:20:24.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\ClientController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Tables\\ClientController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Tables\\ClientController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Tables\\ClientController.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAzwDEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:19:56.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ResultConsolidatedByHierarchiesController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Home\\ResultConsolidatedByHierarchiesController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Home\\ResultConsolidatedByHierarchiesController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Home\\ResultConsolidatedByHierarchiesController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Home\\ResultConsolidatedByHierarchiesController.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAgwFAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:17:43.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ResultConsolidatedController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Home\\ResultConsolidatedController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Home\\ResultConsolidatedController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Home\\ResultConsolidatedController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Home\\ResultConsolidatedController.cs",
+              "ViewState": "AQIAAIQAAAAAAAAAAAA5wIgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T19:27:25.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ReportHomeResultController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Home\\ReportHomeResultController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Home\\ReportHomeResultController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Home\\ReportHomeResultController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Home\\ReportHomeResultController.cs",
+              "ViewState": "AQIAAFEDAAAAAAAAAAAuwFsDAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:16:48.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ReportConsolidatedSectorController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Home\\ReportConsolidatedSectorController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Home\\ReportConsolidatedSectorController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Home\\ReportConsolidatedSectorController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Home\\ReportConsolidatedSectorController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwLsDAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:15:53.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "RankingOperacaoController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Home\\RankingOperacaoController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Home\\RankingOperacaoController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Home\\RankingOperacaoController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Home\\RankingOperacaoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwHoCAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:14:52.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ListDayLoggedsController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Home\\ListDayLoggedsController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Home\\ListDayLoggedsController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Home\\ListDayLoggedsController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Home\\ListDayLoggedsController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAwDMAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:14:16.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "DayLoggedsController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Home\\DayLoggedsController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Home\\DayLoggedsController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Home\\DayLoggedsController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Home\\DayLoggedsController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAC4AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:13:31.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "ReportFeedBackController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\FeedBack\\ReportFeedBackController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\FeedBack\\ReportFeedBackController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\FeedBack\\ReportFeedBackController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\FeedBack\\ReportFeedBackController.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAowDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:12:41.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "ListTypePedagogicalEscaleController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\FeedBack\\ListTypePedagogicalEscaleController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\FeedBack\\ListTypePedagogicalEscaleController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\FeedBack\\ListTypePedagogicalEscaleController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\FeedBack\\ListTypePedagogicalEscaleController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAkwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:12:02.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "ListPedagogicalEscaleController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\FeedBack\\ListPedagogicalEscaleController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\FeedBack\\ListPedagogicalEscaleController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\FeedBack\\ListPedagogicalEscaleController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\FeedBack\\ListPedagogicalEscaleController.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAkwCwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:11:20.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "ListMyFeedBackMandatoryController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\FeedBack\\ListMyFeedBackMandatoryController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\FeedBack\\ListMyFeedBackMandatoryController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\FeedBack\\ListMyFeedBackMandatoryController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\FeedBack\\ListMyFeedBackMandatoryController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAkwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:10:28.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "ListMyFeedBackController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\FeedBack\\ListMyFeedBackController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\FeedBack\\ListMyFeedBackController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\FeedBack\\ListMyFeedBackController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\FeedBack\\ListMyFeedBackController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAgwDMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:09:34.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ListGravityPedagogicalEscaleController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\FeedBack\\ListGravityPedagogicalEscaleController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\FeedBack\\ListGravityPedagogicalEscaleController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\FeedBack\\ListGravityPedagogicalEscaleController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\FeedBack\\ListGravityPedagogicalEscaleController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAkwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:08:52.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "ListFeedBackNotReceivedController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\FeedBack\\ListFeedBackNotReceivedController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\FeedBack\\ListFeedBackNotReceivedController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\FeedBack\\ListFeedBackNotReceivedController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\FeedBack\\ListFeedBackNotReceivedController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAkwCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:08:24.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "ListFeedBackInfractionController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\FeedBack\\ListFeedBackInfractionController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\FeedBack\\ListFeedBackInfractionController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\FeedBack\\ListFeedBackInfractionController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\FeedBack\\ListFeedBackInfractionController.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAA0wD4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:07:33.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "ListFeedBackController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\FeedBack\\ListFeedBackController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\FeedBack\\ListFeedBackController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\FeedBack\\ListFeedBackController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\FeedBack\\ListFeedBackController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwDoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:06:44.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "ListDetailsFeedBackController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\FeedBack\\ListDetailsFeedBackController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\FeedBack\\ListDetailsFeedBackController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\FeedBack\\ListDetailsFeedBackController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\FeedBack\\ListDetailsFeedBackController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAA6wD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:05:41.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "ListReportHierarchyClimateController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Climate\\ListReportHierarchyClimateController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Climate\\ListReportHierarchyClimateController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Climate\\ListReportHierarchyClimateController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Climate\\ListReportHierarchyClimateController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAYwDgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:04:34.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "ListPeriodClimateController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Climate\\ListPeriodClimateController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Climate\\ListPeriodClimateController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Climate\\ListPeriodClimateController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Climate\\ListPeriodClimateController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAYwDMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:03:03.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "ListGroupHierarchyClimateController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Climate\\ListGroupHierarchyClimateController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Climate\\ListGroupHierarchyClimateController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Climate\\ListGroupHierarchyClimateController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Climate\\ListGroupHierarchyClimateController.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAowEgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:00:19.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "ListGroupClimateController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Climate\\ListGroupClimateController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Climate\\ListGroupClimateController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Climate\\ListGroupClimateController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Climate\\ListGroupClimateController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T00:59:50.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "ListClimateReasonController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Climate\\ListClimateReasonController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Climate\\ListClimateReasonController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Climate\\ListClimateReasonController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Climate\\ListClimateReasonController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAowCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T00:59:06.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "ListClimateController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Climate\\ListClimateController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Climate\\ListClimateController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Climate\\ListClimateController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Climate\\ListClimateController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowC4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T00:58:16.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "ReportActionEscalationController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Action Escalation\\ReportActionEscalationController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Action Escalation\\ReportActionEscalationController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Action Escalation\\ReportActionEscalationController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Action Escalation\\ReportActionEscalationController.cs",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAswJMAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T00:57:14.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "LoadLibraryActionEscalationController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Action Escalation\\LoadLibraryActionEscalationController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Action Escalation\\LoadLibraryActionEscalationController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Action Escalation\\LoadLibraryActionEscalationController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Action Escalation\\LoadLibraryActionEscalationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwCoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T00:55:40.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "LoadActionEscalationDetailsController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Action Escalation\\LoadActionEscalationDetailsController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Action Escalation\\LoadActionEscalationDetailsController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Action Escalation\\LoadActionEscalationDetailsController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Action Escalation\\LoadActionEscalationDetailsController.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAqwGAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T00:47:13.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "IndicatorPerformanceActionEscalationController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Action Escalation\\IndicatorPerformanceActionEscalationController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Action Escalation\\IndicatorPerformanceActionEscalationController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Action Escalation\\IndicatorPerformanceActionEscalationController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Action Escalation\\IndicatorPerformanceActionEscalationController.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAA9wDwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T00:46:09.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "HierarchyEscalationController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Action Escalation\\HierarchyEscalationController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Action Escalation\\HierarchyEscalationController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Action Escalation\\HierarchyEscalationController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Action Escalation\\HierarchyEscalationController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAkwC0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T00:45:24.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "ListCatalogController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Store\\ListCatalogController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Store\\ListCatalogController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Store\\ListCatalogController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Store\\ListCatalogController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAywCwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T00:44:32.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "InitialExpirationBasisController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Store\\InitialExpirationBasisController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Store\\InitialExpirationBasisController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Store\\InitialExpirationBasisController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Store\\InitialExpirationBasisController.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAYwE4AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T00:43:58.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "ExpirationBasisController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Store\\ExpirationBasisController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Store\\ExpirationBasisController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Store\\ExpirationBasisController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Store\\ExpirationBasisController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAkwCkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T00:43:08.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "ReportMonthDayController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Monetization\\ReportMonthDayController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Monetization\\ReportMonthDayController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Monetization\\ReportMonthDayController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Monetization\\ReportMonthDayController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwM0CAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T00:42:10.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "ReportMonthConsolidatedController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Monetization\\ReportMonthConsolidatedController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Monetization\\ReportMonthConsolidatedController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Monetization\\ReportMonthConsolidatedController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Monetization\\ReportMonthConsolidatedController.cs",
+              "ViewState": "AQIAAHwBAAAAAAAAAAAzwIkBAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T00:41:03.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "ReportMonthAdmController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Monetization\\ReportMonthAdmController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Monetization\\ReportMonthAdmController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Monetization\\ReportMonthAdmController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Monetization\\ReportMonthAdmController.cs",
+              "ViewState": "AQIAAJECAAAAAAAAAAAiwJoCAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T00:39:50.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "ListNewIndicatorsController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Indicator\\ListNewIndicatorsController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Indicator\\ListNewIndicatorsController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Indicator\\ListNewIndicatorsController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Indicator\\ListNewIndicatorsController.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAzwC0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T00:37:24.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "IndicatorMathematicalExpressionsController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Indicator\\IndicatorMathematicalExpressionsController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Indicator\\IndicatorMathematicalExpressionsController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Indicator\\IndicatorMathematicalExpressionsController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Indicator\\IndicatorMathematicalExpressionsController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACQAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T00:34:26.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "StockMovementListController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Stock\\StockMovementListController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Stock\\StockMovementListController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Stock\\StockMovementListController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Stock\\StockMovementListController.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAA3wD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T00:33:45.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "StockInputQuantityListController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Stock\\StockInputQuantityListController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Stock\\StockInputQuantityListController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Stock\\StockInputQuantityListController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Stock\\StockInputQuantityListController.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAA7wEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T00:32:29.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "VerifyFileInProductsController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Gallery\\VerifyFileInProductsController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Gallery\\VerifyFileInProductsController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Gallery\\VerifyFileInProductsController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Gallery\\VerifyFileInProductsController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T00:29:38.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "ListDisplayProductsController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Display\\ListDisplayProductsController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Display\\ListDisplayProductsController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Display\\ListDisplayProductsController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Display\\ListDisplayProductsController.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAA7wNIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T00:28:06.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "InputMassiveMetricController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Metrics\\InputMassiveMetricController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Metrics\\InputMassiveMetricController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Metrics\\InputMassiveMetricController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Metrics\\InputMassiveMetricController.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAQwFIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T00:26:33.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "ListPainelController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\API Integration\\ListPainelController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\API Integration\\ListPainelController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\API Integration\\ListPainelController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\API Integration\\ListPainelController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAkwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T00:25:36.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "IntegracaoAPIResultController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\API Integration\\IntegracaoAPIResultController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\API Integration\\IntegracaoAPIResultController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\API Integration\\IntegracaoAPIResultController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\API Integration\\IntegracaoAPIResultController.cs",
+              "ViewState": "AQIAADUCAAAAAAAAAAAswEQCAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T00:24:05.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "OrdersReportController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Reports\\OrdersReportController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Reports\\OrdersReportController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Reports\\OrdersReportController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Reports\\OrdersReportController.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAuwHkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T00:21:53.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "PermissionController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Permission\\PermissionController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Permission\\PermissionController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Permission\\PermissionController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Permission\\PermissionController.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAQwDAAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T00:20:43.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "ReportAcessFeeController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Indicator Acess\\ReportAcessFeeController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Indicator Acess\\ReportAcessFeeController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Indicator Acess\\ReportAcessFeeController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Indicator Acess\\ReportAcessFeeController.cs",
+              "ViewState": "AQIAAEkBAAAAAAAAAAAuwFEBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T00:18:58.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "FinancialSummaryController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Financial Summary\\FinancialSummaryController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Financial Summary\\FinancialSummaryController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Financial Summary\\FinancialSummaryController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Financial Summary\\FinancialSummaryController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAQwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T00:17:36.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "listImageController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Blob\\listImageController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Blob\\listImageController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Blob\\listImageController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Blob\\listImageController.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAswDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T22:15:00.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "PersonaShowUserController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Persona\\User\\PersonaShowUserController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Persona\\User\\PersonaShowUserController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Persona\\User\\PersonaShowUserController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Persona\\User\\PersonaShowUserController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAnwDIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T22:08:25.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "PersonaListReactionController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Persona\\Reaction\\PersonaListReactionController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Persona\\Reaction\\PersonaListReactionController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Persona\\Reaction\\PersonaListReactionController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Persona\\Reaction\\PersonaListReactionController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T22:06:43.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "PersonaInfUserController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Persona\\InfUser\\PersonaInfUserController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Persona\\InfUser\\PersonaInfUserController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Persona\\InfUser\\PersonaInfUserController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Persona\\InfUser\\PersonaInfUserController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAD4vxIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T22:01:47.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "PersonaFollowController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Persona\\Follow\\PersonaFollowController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Persona\\Follow\\PersonaFollowController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Persona\\Follow\\PersonaFollowController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Persona\\Follow\\PersonaFollowController.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAIA2wCwAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T22:00:39.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Startup.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Startup.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Startup.cs",
+              "RelativeToolTip": "ApiRepositorio\\Startup.cs",
+              "ViewState": "AQIAAM4AAAAAAAAAAAAowNsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T19:36:31.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "ScheduledNotification.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Class\\Thread\\ScheduledNotification.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Class\\Thread\\ScheduledNotification.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Class\\Thread\\ScheduledNotification.cs",
+              "RelativeToolTip": "ApiRepositorio\\Class\\Thread\\ScheduledNotification.cs",
+              "ViewState": "AQIAAI4BAAAAAAAAAAAuwKkBAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T19:36:19.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "ReleasedItemController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Marketing Place\\Buy\\ReleasedItemController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Marketing Place\\Buy\\ReleasedItemController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Marketing Place\\Buy\\ReleasedItemController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Marketing Place\\Buy\\ReleasedItemController.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAuwHEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T19:28:04.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "TesteController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\TesteController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\TesteController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\TesteController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\TesteController.cs",
+              "ViewState": "AQIAAEUBAAAAAAAAAAAowJsBAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T19:27:05.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "ScheduledTask.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Class\\Thread\\ScheduledTask.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Class\\Thread\\ScheduledTask.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Class\\Thread\\ScheduledTask.cs",
+              "RelativeToolTip": "ApiRepositorio\\Class\\Thread\\ScheduledTask.cs",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAMwJ4AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T19:28:04.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 116,
+              "Title": "CreatedQuizController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Quiz\\CreatedQuizController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Quiz\\CreatedQuizController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Quiz\\CreatedQuizController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Quiz\\CreatedQuizController.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAAAGoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T19:47:32.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "AccountsPersonaController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Persona\\Accounts\\AccountsPersonaController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Persona\\Accounts\\AccountsPersonaController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Persona\\Accounts\\AccountsPersonaController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Persona\\Accounts\\AccountsPersonaController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAqwCYAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T21:23:39.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "SendQuizController.cs",
+              "DocumentMoniker": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Quiz\\SendQuizController.cs",
+              "RelativeDocumentMoniker": "ApiRepositorio\\Controllers\\Quiz\\SendQuizController.cs",
+              "ToolTip": "C:\\TFS GUILDA\\Guilda\\ApiRepositorio\\ApiRepositorio\\Controllers\\Quiz\\SendQuizController.cs",
+              "RelativeToolTip": "ApiRepositorio\\Controllers\\Quiz\\SendQuizController.cs",
+              "ViewState": "AQIAAA0BAAAAAAAAAAAuwB4BAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T19:28:04.171Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

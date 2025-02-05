@@ -1,0 +1,24 @@
+model CheckingAccount {
+  id                            Int                             @id @default(autoincrement())
+  input                         Float?
+  output                        Float?
+  reason                        String?
+  observation                   String?
+  balance                       Float                           @default(0)
+  collaboratorId                Int                             @map("collaborator_id")
+  createdAt                     DateTime                        @default(now()) @map("created_at")
+  indicatorId                   Int?                            @map("GDA_INDICATOR_IDGDA_INDICATOR")
+  weight                        Int?                            @map("WEIGHT") @default(1)
+  orderId                       Int?                            @map("GDA_ORDER_IDGDA_ORDER")
+  resultId                      Int?                            @map("IDGDA_RESULT")
+  resultDate                    DateTime?                       @map("RESULT_DATE")
+  collaborator                  Collaborator                    @relation(fields: [collaboratorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  indicator                     Indicator?                      @relation(fields: [indicatorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  order                         GdaOrder?                       @relation(fields: [orderId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  result                        Result?                         @relation(fields: [resultId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  GdaConsolidateCheckingAccount GdaConsolidateCheckingAccount[]
+  createdByCollaboratorId       Int?
+  createBy                      Collaborator?                   @relation("created-by", fields: [createdByCollaboratorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@map("GDA_CHECKING_ACCOUNT")
+}

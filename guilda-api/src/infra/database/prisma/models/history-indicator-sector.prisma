@@ -1,0 +1,20 @@
+model HistoryIndicatorSector {
+  id            Int           @id @default(autoincrement())
+  indicatorId   Int           @map("indicator_id")
+  sectorId      Int           @map("sector_id")
+  createdAt     DateTime      @default(now()) @map("created_at")
+  deletedAt     DateTime?     @map("deleted_at")
+  goal          Float?
+  goalNight     Float?       @map("GOAL_NIGHT")
+  goalLatenight  Float?       @map("GOAL_LATENight")
+  active        Boolean?      @map("ACTIVE")
+  alteredById   Int?          @map("ALTERED_BY")
+  ended_at      DateTime?     @map("ENDED_AT")
+  started_at    DateTime?     @map("STARTED_AT")
+  alteredBy     Collaborator? @relation("collaborator_history_indicator_sector", fields: [alteredById], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  indicator     Indicator     @relation(fields: [indicatorId], references: [id])
+  sector        Sector        @relation(fields: [sectorId], references: [id])
+
+  @@unique([sectorId, indicatorId, createdAt])
+  @@map("GDA_HISTORY_INDICATOR_SECTORS")
+}

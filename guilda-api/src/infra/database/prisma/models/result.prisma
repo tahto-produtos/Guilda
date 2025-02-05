@@ -1,0 +1,18 @@
+model Result {
+  id                 Int                  @id @default(autoincrement()) @map("IDGDA_RESULT")
+  indicatorId        Int?                 @map("INDICADORID")
+  transactionId      Int?                 @map("TRANSACTIONID")
+  result             Float?               @map("RESULT")
+  createdAt          DateTime             @default(now()) @map("CREATED_AT")
+  deletedAt          DateTime?            @map("DELETED_AT")
+  collaboratorId     Int?                 @map("IDGDA_COLLABORATORS")
+  factorsList        String?              @map("factors")
+  ConsolidatedResult ConsolidatedResult[]
+  factors            Factor[]
+  collaborator       Collaborator?        @relation(fields: [collaboratorId], references: [id], onDelete: NoAction)
+  indicator          Indicator?           @relation(fields: [indicatorId], references: [id])
+  transaction        Transaction?         @relation(fields: [transactionId], references: [id])
+
+  @@index([collaboratorId, transactionId, indicatorId])
+  @@map("GDA_RESULT")
+}

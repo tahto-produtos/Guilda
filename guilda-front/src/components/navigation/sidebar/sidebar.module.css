@@ -1,0 +1,7 @@
+.sideBarHeight {
+    height: calc(100vh - 20px - 136px - 24px);
+}
+
+.sideBarHeight::-webkit-scrollbar {
+    display: none;
+}

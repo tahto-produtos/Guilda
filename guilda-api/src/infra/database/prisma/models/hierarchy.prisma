@@ -1,0 +1,12 @@
+model Hierarchy {
+  id                            Int                             @id @default(autoincrement()) @map("IDGDA_HIERARCHY")
+  levelName                     String                          @map("LEVELNAME")
+  levelWeight                   Int                             @map("LEVELWEIGHT")
+  createdAt                     DateTime                        @default(now()) @map("CREATED_AT")
+  deletedAt                     DateTime?                       @map("DELETED_AT")
+  GdaConsolidateCheckingAccount GdaConsolidateCheckingAccount[]
+  HistoryHierarchyRelationship  HistoryHierarchyRelationship[]
+  Profile                       Profile[]
+
+  @@map("GDA_HIERARCHY")
+}

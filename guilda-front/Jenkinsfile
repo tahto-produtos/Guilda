@@ -1,0 +1,57 @@
+pipeline {
+  agent {
+    node {
+      label 'workspace-api'
+      customWorkspace 'C:/Users/Administrator/Documents/Guilda/guilda-workspace/guilda-front'
+    }
+  }
+ 
+  tools {nodejs "node"}
+ 
+  stages {
+    stage('Cloning Git Repository') {
+      when {
+        expression { return params.current_status == "closed" && params.merged == true }
+      }
+      steps {
+        git 'https://github.com/Focare/guilda-front.git'
+      }
+    }
+      
+    stage('Install Dependencies') {
+      when {
+        expression { return params.current_status == "closed" && params.merged == true }
+      }
+      steps {
+        bat 'npm install'
+      }
+    }
+    
+    /*stage('Delete folder out') {
+      when {
+        expression { return params.current_status == "closed" && params.merged == true }
+      }
+      steps {
+        bat 'rmdir out /s /q'
+      }
+    }*/
+
+    stage('Build Application') {
+      when {
+        expression { return params.current_status == "closed" && params.merged == true }
+      }
+      steps {
+        bat 'npm run build'
+      }
+    }
+
+    stage('Start Application PM2') {
+      when {
+        expression { return params.current_status == "closed" && params.merged == true }
+      }
+      steps {
+        bat 'npx pm2 reload ecosystem.config.js --update-env'
+      }
+    }
+  }
+}

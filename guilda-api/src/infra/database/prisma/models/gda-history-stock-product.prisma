@@ -1,0 +1,20 @@
+model GdaHistoryStockProduct {
+  id              Int              @id @default(autoincrement()) @map("IDGDA_HISTORY_STOCK_PRODUCT")
+  amount_input    Float?           @map("AMOUNT_INPUT")
+  amount_output   Float?           @map("AMOUNT_OUTPUT")
+  expirationDate  DateTime?        @map("EXPIRATION_DATE")
+  registeredBy    Int              @map("REGISTERED_BY")
+  productId       Int              @map("GDA_PRODUCT_IDGDA_PRODUCT")
+  supplierId      Int?             @map("GDA_SUPPLIER_IDGDA_SUPPLIER")
+  stockId         Int              @map("GDA_STOCK_IDGDA_STOCK")
+  reasonRemovedId Int              @map("GDA_REASON_REMOVED_IDGDA_REASON_REMOVED")
+  reasonComment   String?          @map("REASON_COMMENT")
+  createdAt       DateTime         @default(now()) @map("CREATED_AT")
+  deletedAt       DateTime?        @map("DELETED_AT")
+  product         GdaProduct       @relation(fields: [productId], references: [id])
+  reasonRemoved   GdaReasonRemoved @relation(fields: [reasonRemovedId], references: [id])
+  stock           GdaStock         @relation(fields: [stockId], references: [id])
+  supplier        Supplier?        @relation(fields: [supplierId], references: [id])
+
+  @@map("GDA_HISTORY_STOCK_PRODUCT")
+}

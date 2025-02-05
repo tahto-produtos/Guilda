@@ -1,0 +1,11 @@
+model Attribute {
+  IDGDA_ATRIBUTES     Int       @id(map: "PK_dbo.GDA_ATRIBUTES") @default(autoincrement())
+  IDGDA_COLLABORATORS Int?
+  NAME                String?   @db.NVarChar(Max)
+  LEVEL               Int
+  VALUE               String?   @db.NVarChar(Max)
+  CREATED_AT          DateTime? @db.DateTime
+  deleted_at          DateTime? @map("DELETED_AT")
+
+  @@map("GDA_ATRIBUTES")
+}

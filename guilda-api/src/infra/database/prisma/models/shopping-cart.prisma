@@ -1,0 +1,10 @@
+model ShoppingCart {
+  id             Int             @id @default(autoincrement()) @map("IDGDA_SHOPPINGCART")
+  orderedById    Int             @map("ORDER_BY")
+  amount         Int             @map("AMOUNT")
+  stockProductId Int             @map("STOCK_PRODUCT_ID")
+  orderedBy      Collaborator    @relation(fields: [orderedById], references: [id])
+  stockProduct   GdaStockProduct @relation(fields: [stockProductId], references: [id])
+
+  @@map("GDA_SHOPPING_CART")
+}

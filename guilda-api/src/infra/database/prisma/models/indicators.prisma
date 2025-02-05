@@ -1,0 +1,23 @@
+model Indicator {
+  id                                     Int                                      @id @default(autoincrement()) @map("IDGDA_INDICATOR")
+  name                                   String                                   @map("NAME")
+  description                            String                                   @map("DESCRIPTION")
+  type                                   String?                                  @map("TYPE")
+  status                                 Boolean?                                 @map("STATUS")
+  weight                                 Int?                                     @default(1) @map("WEIGHT")
+  calculationType                        String?                                  @map("CALCULATION_TYPE")
+  createdAt                              DateTime                                 @default(now()) @map("created_at")
+  deletedAt                              DateTime?                                @map("deleted_at")
+  CheckingAccount                        CheckingAccount[]
+  GdaConsolidateCheckingAccount          GdaConsolidateCheckingAccount[]
+  ConsolidatedResult                     ConsolidatedResult[]
+  historyIndicatorGroups                 HistoryIndicatorGroup[]
+  historyIndicatorSectors                HistoryIndicatorSector[]
+  historyMathematicalExpressionIndicator HistoryMathematicalExpressionIndicator[]
+  results                                Result[]
+  BasketIndicator                        BasketIndicator[]
+  HistoryMonetizationRecalculation       HistoryMonetizationRecalculation[]
+  HistoryScoreIndicatorSector            HistoryScoreIndicatorSector[]
+
+  @@map("GDA_INDICATOR")
+}

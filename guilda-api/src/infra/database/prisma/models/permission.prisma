@@ -1,0 +1,10 @@
+model Permission {
+  id                Int                 @id @default(autoincrement())
+  action            String
+  resource          String
+  createdAt         DateTime            @default(now()) @map("created_at")
+  deletedAt         DateTime?           @map("deleted_at")
+  ProfilePermission ProfilePermission[]
+
+  @@map("GDA_PERMISSIONS")
+}

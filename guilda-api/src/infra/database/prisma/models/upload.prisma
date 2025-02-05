@@ -1,0 +1,12 @@
+model Upload {
+  id           Int            @id @default(autoincrement())
+  originalName String
+  key          String         @unique
+  type         String
+  url          String
+  createdAt    DateTime       @default(now()) @map("created_at")
+  Group        Group[]
+  ProductImage ProductImage[]
+
+  @@map("GDA_UPLOADS")
+}

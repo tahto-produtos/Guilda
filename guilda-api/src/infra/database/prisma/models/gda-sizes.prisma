@@ -1,0 +1,14 @@
+
+
+model Sizes {
+  id                            Int                             @id @default(autoincrement()) @map("IDGDA_SIZE")
+  sizeName                      String                          @map("SIZE_NAME")
+  createdAt                     DateTime                        @default(now()) @map("CREATED_AT")
+  deletedAt                     DateTime?                       @map("DELETED_AT")
+  ord                           Int?                            @map("ORD")
+  createdByCollaboratorId       Int
+  createBy                      Collaborator                    @relation(fields: [createdByCollaboratorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  GdaProduct                    GdaProduct[]
+
+  @@map("GDA_SIZES")
+}

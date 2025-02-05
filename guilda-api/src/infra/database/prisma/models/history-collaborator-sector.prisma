@@ -1,0 +1,11 @@
+model HistoryCollaboratorSector {
+  id             Int           @id(map: "PK_GDA_HISTORY_COLLABORATOR_SECTOR") @default(autoincrement()) @map("IDGDA_HISTORY_COLLABORATOR_SECTOR")
+  createdAt      DateTime?     @map("CREATED_AT") @db.DateTime
+  collaboratorId Int?          @map("IDGDA_COLLABORATORS")
+  sectorId       Int?          @map("IDGDA_SECTOR")
+  transactionId  Int?          @map("TRANSACTIONID")
+  collaborator   Collaborator? @relation(fields: [collaboratorId], references: [id])
+  deletedAt      DateTime?     @map("DELETED_AT")
+
+  @@map("GDA_HISTORY_COLLABORATOR_SECTOR")
+}

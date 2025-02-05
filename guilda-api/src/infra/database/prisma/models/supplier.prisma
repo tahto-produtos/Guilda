@@ -1,0 +1,14 @@
+model Supplier {
+  id                            Int                             @id @default(autoincrement()) @map("IDGDA_SUPPLIER")
+  supplierName                  String                          @map("SUPPLIER_NAME")
+  createdAt                     DateTime                        @default(now()) @map("CREATED_AT")
+  deletedAt                     DateTime?                       @map("DELETED_AT")
+  ord                           Int?                            @map("ORD")
+  createdByCollaboratorId       Int
+  createBy                      Collaborator                    @relation(fields: [createdByCollaboratorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  GdaStockProduct               GdaStockProduct[]
+  GdaHistoryStockProduct        GdaHistoryStockProduct[]
+  GdaOrderProduct               GdaOrderProduct[]
+
+  @@map("GDA_SUPPLIER")
+}

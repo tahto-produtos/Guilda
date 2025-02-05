@@ -1,0 +1,9 @@
+model ProductImage {
+  id        Int        @id @default(autoincrement()) @map("IDGDA_HISTORY_STOCK_PRODUCT")
+  uploadId  Int
+  productId Int
+  product   GdaProduct @relation(fields: [productId], references: [id])
+  upload    Upload     @relation(fields: [uploadId], references: [id])
+
+  @@map("GDA_PRODUCT_IMAGES")
+}

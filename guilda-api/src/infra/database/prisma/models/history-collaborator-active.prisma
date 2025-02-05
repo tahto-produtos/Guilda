@@ -1,0 +1,10 @@
+model HistoryCollaboratorActive {
+  id                                    Int                   @id @default(autoincrement()) @map("IDGDA_HIERARCHY")
+  collaboratorId                        Int                   @map("IDGDA_COLLABORATORS")
+  entryDate                             DateTime              @map("ENTRYDATE")
+  active                                String                @db.NVarChar(50) @map("ACTIVE")
+  tansactionId                          Int                   @map("TRANSACTIONID")
+  collaborator                          Collaborator?         @relation("history_collaborator_active_has_collaborator", fields: [collaboratorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@map("GDA_HISTORY_COLLABORATOR_ACTIVE")
+}

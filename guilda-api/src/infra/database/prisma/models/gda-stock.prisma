@@ -1,0 +1,16 @@
+model GdaStock {
+  id                     Int                      @id @default(autoincrement()) @map("IDGDA_STOCK")
+  description            String                   @map("DESCRIPTION")
+  createdAt              DateTime                 @default(now()) @map("CREATED_AT")
+  deletedAt              DateTime?                @map("DELETED_AT")
+  city                   String                   @default("") @map("CITY")
+  client                 String                   @default("") @map("GDA_ATRIBUTES")
+  campaign               String                   @default("")
+  type                   String?                  @default("PHYSICAL")
+  GdaHistoryStockProduct GdaHistoryStockProduct[]
+  GdaStockProduct        GdaStockProduct[]
+  GdaOrderProduct        GdaOrderProduct[]
+  vouchers               Voucher[]
+
+  @@map("GDA_STOCK")
+}

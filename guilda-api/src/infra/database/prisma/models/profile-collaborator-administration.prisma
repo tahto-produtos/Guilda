@@ -1,0 +1,11 @@
+
+model ProfileCollaboratorAdministration {
+  id                Int                 @id(map: "GDA_PROFILE_COLLABORATOR_ADMINISTRATION_pkey") @default(autoincrement())
+  name              String              @unique
+  createdAt         DateTime            @default(now(), map: "GDA_PROFILE_COLLABORATOR_ADMINISTRATION_reated_at_df") @map("created_at")
+  deletedAt         DateTime?           @map("deleted_at")
+  Collaborator      Collaborator[]
+  ProfilePermission ProfilePermission[]
+
+  @@map("GDA_PROFILE_COLLABORATOR_ADMINISTRATION")
+}

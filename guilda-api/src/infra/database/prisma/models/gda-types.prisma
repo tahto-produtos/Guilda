@@ -1,0 +1,9 @@
+model GdaTypes {
+  id                            Int                             @id @default(autoincrement()) @map("IDGDA_TYPES")
+  type                          String                          @map("TYPE")
+  createdAt                     DateTime                        @default(now()) @map("CREATED_AT")
+  createdByCollaboratorId       Int
+  createBy                      Collaborator                    @relation(fields: [createdByCollaboratorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  GdaProduct                    GdaProduct[]
+  @@map("GDA_TYPES")
+}

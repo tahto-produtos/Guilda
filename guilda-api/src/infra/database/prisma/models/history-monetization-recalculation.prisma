@@ -1,0 +1,21 @@
+model HistoryMonetizationRecalculation {
+  id                      Int                   @id @default(autoincrement())
+  resultDate              DateTime?             @map("RESULT_DATE")
+  monetizationDate        DateTime?             @map("MONETIZATION_DATE")
+  resultId                Int?                  @map("IDGDA_RESULT")
+  collaboratorId          Int?                  @map("IDGDA_COLLABORATOR")
+  indicatorId             Int?                  @map("IDGDA_INDICATOR")
+  sectorId                Int?                  @map("IDGDA_SECTOR")
+  hierarchyId             Int?                  @map("IDGDA_HIERARCHY")
+  monetization            Float?                @map("MONETIZATION")
+  beforeMonetization      Float?                @map("BEFORE_MONETIZATION")
+  result                  Result?               @relation(fields: [resultId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  collaborator            Collaborator?         @relation(fields: [collaboratorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  indicator               Indicator?            @relation(fields: [indicatorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  sector                  Sector?               @relation(fields: [sectorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  hierarchy               Hierarchy?            @relation(fields: [hierarchyId], references: [id], onDelete: NoAction, onUpdate: NoAction) 
+  createdAt               DateTime              @default(now()) @map("CREATED_AT")
+  deletedAt               DateTime?             @default(now()) @map("DELETED_AT")
+
+  @@map("GDA_HISTORY_MONETIZATION_RECALCULATION")
+}

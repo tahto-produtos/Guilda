@@ -1,0 +1,12 @@
+model Holidays {
+  id                            Int                             @id @default(autoincrement()) @map("IDGDA_HOLIDAY")
+  holidayDate                   DateTime                        @map("HOLYDAY_DATE")
+  site                          String                          @map("SITE")
+  type                          String                          @map("TYPE")
+  createdAt                     DateTime                        @default(now()) @map("CREATED_AT")
+  deletedAt                     DateTime?                       @map("DELETED_AT")
+  createdByCollaboratorId       Int
+  createBy                      Collaborator                    @relation(fields: [createdByCollaboratorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@map("GDA_HOLIDAYS")
+}

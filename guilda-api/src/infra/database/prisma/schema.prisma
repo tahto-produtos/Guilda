@@ -1,0 +1,941 @@
+//# ------------------------------------------------------
+//# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+//# ------------------------------------------------------
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlserver"
+  url      = env("DATABASE_URL")
+}
+
+model Attribute {
+  IDGDA_ATRIBUTES     Int       @id(map: "PK_dbo.GDA_ATRIBUTES") @default(autoincrement())
+  IDGDA_COLLABORATORS Int?
+  NAME                String?   @db.NVarChar(Max)
+  LEVEL               Int
+  VALUE               String?   @db.NVarChar(Max)
+  CREATED_AT          DateTime? @db.DateTime
+  deleted_at          DateTime? @map("DELETED_AT")
+
+  @@map("GDA_ATRIBUTES")
+}
+
+model BasketIndicator {
+  id             Int       @id @default(autoincrement()) @map("IDGDA_BASKET_INDICATOR")
+  sectorId       Int       @map("SECTOR_ID")
+  indicatorId    Int       @map("INDICATOR_ID")
+  date           DateTime  @default(now()) @map("DATE")
+  weight         Int?      @default(1) @map("WEIGHT")
+  monetizationG1 Int       @map("MONETIZATION_G1")
+  createdAt      DateTime  @default(now()) @map("CREATED_AT")
+  sector         Sector    @relation(fields: [sectorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  indicator      Indicator @relation(fields: [indicatorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@map("GDA_BASKET_INDICATOR")
+}
+
+model CheckingAccount {
+  id                            Int                             @id @default(autoincrement())
+  input                         Float?
+  output                        Float?
+  reason                        String?
+  observation                   String?
+  balance                       Float                           @default(0)
+  collaboratorId                Int                             @map("collaborator_id")
+  createdAt                     DateTime                        @default(now()) @map("created_at")
+  indicatorId                   Int?                            @map("GDA_INDICATOR_IDGDA_INDICATOR")
+  weight                        Int?                            @default(1) @map("WEIGHT")
+  orderId                       Int?                            @map("GDA_ORDER_IDGDA_ORDER")
+  resultId                      Int?                            @map("IDGDA_RESULT")
+  resultDate                    DateTime?                       @map("RESULT_DATE")
+  collaborator                  Collaborator                    @relation(fields: [collaboratorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  indicator                     Indicator?                      @relation(fields: [indicatorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  order                         GdaOrder?                       @relation(fields: [orderId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  result                        Result?                         @relation(fields: [resultId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  GdaConsolidateCheckingAccount GdaConsolidateCheckingAccount[]
+  createdByCollaboratorId       Int?
+  createBy                      Collaborator?                   @relation("created-by", fields: [createdByCollaboratorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@map("GDA_CHECKING_ACCOUNT")
+}
+
+model CollaboratorVoucher {
+  id             Int          @id @default(autoincrement()) @map("IDGDA_COLLABORATOR_VOUCHER")
+  collaboratorId Int
+  voucherId      Int
+  orderId        Int          @map("GDA_IDGDA_ORDER")
+  createdAt      DateTime     @default(now()) @map("CREATED_AT")
+  collaborator   Collaborator @relation(fields: [collaboratorId], references: [id])
+  voucher        Voucher      @relation(fields: [voucherId], references: [id])
+  order          GdaOrder     @relation(fields: [orderId], references: [id])
+
+  @@map("GDA_COLLABORATOR_VOUCHER")
+}
+
+
+
+model Collaborator {
+  id                                                         Int                                                    @id @default(autoincrement()) @map("IDGDA_COLLABORATORS")
+  name                                                       String                                                 @map("NAME")
+  identification                                             String                                                 @map("COLLABORATORIDENTIFICATION")
+  registry                                                   String                                                 @map("MATRICULA")
+  genre                                                      String                                                 @map("GENRE")
+  birthdate                                                  DateTime                                               @map("BIRTHDATE")
+  admissionDate                                              DateTime                                               @map("ADMISSIONDATE")
+  maritalStatus                                              Int                                                    @map("CIVILSTATE")
+  active                                                     String?                                                @map("ACTIVE")
+  email                                                      String?                                                @map("EMAIL")
+  street                                                     String?                                                @map("STREET")
+  number                                                     Int?                                                   @map("NUMBER")
+  neighborhood                                               String?                                                @map("NEIGHBORHOOD")
+  city                                                       String?                                                @map("CITY")
+  state                                                      String?                                                @map("STATE")
+  country                                                    String?                                                @map("COUNTRY")
+  homeNumber                                                 String?                                                @map("HOMENUMBER")
+  phoneNumber                                                String?                                                @map("PHONENUMBER")
+  schooling                                                  Int?                                                   @map("SCHOOLING")
+  contractorControlId                                        String?                                                @map("CONTRACTORCONTROLID")
+  dependantNumber                                            String?                                                @map("DEPENDANTNUMBER")
+  createdAt                                                  DateTime                                               @default(now()) @map("CREATED_AT")
+  deletedAt                                                  DateTime?                                              @map("DELETED_AT")
+  updatedAt                                                  DateTime?                                              @map("UPDATED_AT")
+  transactionId                                              BigInt?                                                @map("TRANSACTIONID")
+  entryDate                                                  DateTime?                                              @map("ENTRYDATE")
+  entryTime                                                  DateTime?                                              @map("ENTRY_TIME") @db.Time
+  homeBased                                                  Boolean?                                               @map("HOME_BASED")
+  profileCollaboratorAdministrationId                        Int?                                                   @map("PROFILE_COLLABORATOR_ADMINISTRATIONID")
+  firstLogin                                                 Boolean                                                @default(true) @map("FIRST_LOGIN")
+  CheckingAccount                                            CheckingAccount[]
+  CollaboratorVoucher                                        CollaboratorVoucher[]
+  ConsolidatedResult                                         ConsolidatedResult[]
+  HistoryCollaboratorSector                                  HistoryCollaboratorSector[]
+  historyHierarchyRelationship                               HistoryHierarchyRelationship[]                         @relation("collaborator_has_hierarchy")
+  historyParentRelationship                                  HistoryHierarchyRelationship[]                         @relation("collaborator_has_parent")
+  collaboratorAlteredByHistoryIndicatorSector                HistoryIndicatorSector[]                               @relation("collaborator_history_indicator_sector")
+  delivers                                                   GdaOrder[]                                             @relation("collaborator_delivered_orders")
+  orders                                                     GdaOrder[]                                             @relation("collaborator_orders")
+  releases                                                   GdaOrder[]                                             @relation("collaborator_released_orders")
+  lastUpdateds                                               GdaOrder[]                                             @relation("collaborator_updated_orders")
+  Product                                                    Product[]
+  results                                                    Result[]
+  ShoppingCart                                               ShoppingCart[]
+  Credentials                                                Credentials[]
+  collaboratorUpdatedHistoryProductBy                        HistoryProduct[]                                       @relation("history_product_has_collaborator_updated")
+  createdCheckingAccount                                     CheckingAccount[]                                      @relation("created-by")
+  collaboratorHistoryActive                                  HistoryCollaboratorActive[]                            @relation("history_collaborator_active_has_collaborator")
+  HistoryMonetizationRecalculation                           HistoryMonetizationRecalculation[]
+  profileCollaboratorAdministration                          ProfileCollaboratorAdministration?                     @relation(fields: [profileCollaboratorAdministrationId], references: [id])
+  HistoryProfileCollaboratorAdministrationRelationship       HistoryProfileCollaboratorAdministrationRelationship[] @relation("collaborator_has_administrator")
+  HistoryParentProfileCollaboratorAdministrationRelationship HistoryProfileCollaboratorAdministrationRelationship[] @relation("collaborator_has_administrator_parent")
+  collaboratorLogIndicatorImport                             LogIndicatorImport[]                                   @relation("log_indicator_import_has_collaborator")
+  Supplier                                                   Supplier[]
+  Categories                                                 Categories[]
+  Sizes                                                      Sizes[]
+  ProductDetail                                              GdaDetails[]
+  ProductGroup                                               ProductGroup[]
+  GdaTypes                                                   GdaTypes[]
+  HistoryScoreIndicatorSector                                HistoryScoreIndicatorSector[]                           @relation("collaborator_history_score_indicator_sector")
+  Holidays                                                   Holidays[]
+  GdaOrder                                                   GdaOrder[]                                              @relation("collaborator_canceled_by")
+  productColors                                              productColors[]
+  @@map("GDA_COLLABORATORS")
+}
+model GDA_CONFIG {
+  IDGDA_CONFIG Int     @id(map: "PK_dbo.GDA_CONFIG") @default(autoincrement())
+  NAME         String? @db.NVarChar(Max)
+  VALUE        String? @db.NVarChar(Max)
+}
+model ConsolidatedResult {
+  id             Int           @id @default(autoincrement())
+  resultId       Int?
+  sectorId       Int?
+  value          Float
+  createdAt      DateTime      @default(now()) @map("created_at")
+  collaboratorId Int?
+  goal           Float?
+  indicatorId    Int?
+  transactionId  Int?
+  collaborator   Collaborator? @relation(fields: [collaboratorId], references: [id])
+  indicator      Indicator?    @relation(fields: [indicatorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  result         Result?       @relation(fields: [resultId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  sector         Sector?       @relation(fields: [sectorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  transaction    Transaction?  @relation(fields: [transactionId], references: [id])
+
+  @@index([collaboratorId, transactionId, indicatorId])
+  @@map("GDA_CONSOLIDATED_RESULTS")
+}
+model Credentials {
+  id             Int           @id @default(autoincrement()) @map("Id")
+  username       String        @unique @map("Login")
+  password       String        @map("Senha")
+  collaboratorId Int?          @map("collaborator_id")
+  collaborator   Collaborator? @relation(fields: [collaboratorId], references: [id])
+
+  @@map("GDA_USERS")
+}
+model Factor {
+  id       Int    @id @default(autoincrement()) @map("IDGDA_FACTOR")
+  index    Int    @map("index")
+  value    Float  @map("factor")
+  resultId Int    @map("IDGDA_RESULT")
+  result   Result @relation(fields: [resultId], references: [id])
+
+  @@map("GDA_FACTOR")
+}
+model GdaConsolidateCheckingAccount {
+  id                Int             @id @default(autoincrement())
+  monetization      Float?
+  checkingAccountId Int             @map("GDA_CHECKING_ACCOUNT_IDGDA_CHECKING_ACCOUNT")
+  hierarchyId       Int?            @map("GDA_HIERARCHY_IDGDA_HIERARCHY")
+  indicatorId       Int             @map("GDA_INDICATOR_IDGDA_INDICATOR")
+  sectorId          Int             @map("GDA_SECTOR_IDGDA_SECTOR")
+  resultId          Int?            @map("IDGDA_RESULT")
+  resultDate        DateTime?       @map("RESULT_DATE")
+  weight            Int?            @default(1) @map("WEIGHT")
+  createdAt         DateTime        @default(now()) @map("CREATED_AT")
+  deletedAt         DateTime?       @default(now()) @map("DELETED_AT")
+  checkingAccount   CheckingAccount @relation(fields: [checkingAccountId], references: [id], onUpdate: NoAction)
+  hierarchy         Hierarchy?      @relation(fields: [hierarchyId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  indicator         Indicator       @relation(fields: [indicatorId], references: [id], onUpdate: NoAction)
+  sector            Sector          @relation(fields: [sectorId], references: [id], onUpdate: NoAction)
+  result            Result?         @relation(fields: [resultId], references: [id])
+
+  @@map("GDA_CONSOLIDATE_CHECKING_ACCOUNT")
+}
+model GdaHistoryStockProduct {
+  id              Int              @id @default(autoincrement()) @map("IDGDA_HISTORY_STOCK_PRODUCT")
+  amount_input    Float?           @map("AMOUNT_INPUT")
+  amount_output   Float?           @map("AMOUNT_OUTPUT")
+  expirationDate  DateTime?        @map("EXPIRATION_DATE")
+  registeredBy    Int              @map("REGISTERED_BY")
+  productId       Int              @map("GDA_PRODUCT_IDGDA_PRODUCT")
+  supplierId      Int?             @map("GDA_SUPPLIER_IDGDA_SUPPLIER")
+  stockId         Int              @map("GDA_STOCK_IDGDA_STOCK")
+  reasonRemovedId Int              @map("GDA_REASON_REMOVED_IDGDA_REASON_REMOVED")
+  reasonComment   String?          @map("REASON_COMMENT")
+  createdAt       DateTime         @default(now()) @map("CREATED_AT")
+  deletedAt       DateTime?        @map("DELETED_AT")
+  product         GdaProduct       @relation(fields: [productId], references: [id])
+  reasonRemoved   GdaReasonRemoved @relation(fields: [reasonRemovedId], references: [id])
+  stock           GdaStock         @relation(fields: [stockId], references: [id])
+  supplier        Supplier?        @relation(fields: [supplierId], references: [id])
+
+  @@map("GDA_HISTORY_STOCK_PRODUCT")
+}
+model GdaMktConfig {
+  id        Int       @id @default(autoincrement()) @map("IDGDA_MKT_CONFIG")
+  type      String    @map("TYPE")
+  value     Int       @map("VALUE")
+  createdAt DateTime  @default(now()) @map("CREATED_AT")
+  deletedAt DateTime? @map("DELETED_AT")
+
+  @@map("GDA_MKT_CONFIG")
+}
+model GdaOrderProduct {
+  id                          Int              @id @default(autoincrement()) @map("IDGDA_ORDER_PRODUCT")
+  amount                      Int              @map("AMOUNT")
+  price                       Float            @default(0) @map("PRICE")
+  orderId                     Int              @map("GDA_ORDER_IDGDA_ORDER")
+  SupplierId                  Int?             @map("GDA_SUPPLIER_IDGDA_SUPPLIER")
+  deliveredBy                 Int?             @map("DELIVERED_BY")
+  releasedBy                  Int?             @map("RELEASED_BY")
+  deliveryAT                  DateTime?             @map("DELIVERY_AT")
+  canceledBy                  Int?             @map("CANCELED_BY")
+  canceledAt                  DateTime?        @map("CANCELED_AT")
+  releaseAt                   DateTime?        @map("RELEASED_AT")
+  productId                   Int              @map("GDA_PRODUCT_IDGDA_PRODUCT")
+  stockId                     Int?             @map("GDA_STOCK_IDGDA_STOCK")
+  voucherId                   Int?             @map("GDA_VOUCHER_IDGDA_VOUCHER")
+  productItemId               Int?             @map("GDA_PRODUCT_ITEM_IDGDA_PRODUCT_ITEM")
+  createdAt                   DateTime         @default(now()) @map("CREATED_AT")
+  deletedAt                   DateTime?        @map("DELETED_AT")
+  orderProductStatus          String?          @map("ORDER_PRODUCT_STATUS")
+  observationReleased         String?          @map("OBSERVATION_RELEASED")
+  observationCanceled         String?          @map("OBSERVATION_CANCELED")
+  observationDelivered        String?          @map("OBSERVATION_DELIVERED")
+  deliveryNote                String?          @map("DELIVERY_NOTE")
+  order                       GdaOrder         @relation(fields: [orderId], references: [id], onUpdate: NoAction)
+  product                     GdaProduct       @relation(fields: [productId], references: [id], onUpdate: NoAction)
+  productItem                 GdaProductItem?  @relation(fields: [productItemId], references: [id], onUpdate: NoAction)
+  stock                       GdaStock?        @relation(fields: [stockId], references: [id], onUpdate: NoAction)
+  supplier                    Supplier?        @relation(fields: [SupplierId], references: [id], onUpdate: NoAction)
+  voucher                     Voucher?         @relation(fields: [voucherId], references: [id], onUpdate: NoAction, onDelete: NoAction)
+
+  @@map("GDA_ORDER_PRODUCT")
+}
+model GdaOrderStatus {
+  id        Int        @id @default(autoincrement()) @map("IDGDA_ORDER_STATUS")
+  status    String     @map("STATUS")
+  createdAt DateTime   @default(now()) @map("CREATED_AT")
+  deletedAt DateTime?  @map("DELETED_AT")
+  GdaOrder  GdaOrder[]
+
+  @@map("GDA_ORDER_STATUS")
+}
+model GdaOrder {
+  id                   Int               @id @default(autoincrement()) @map("IDGDA_ORDER")
+  orderById            Int               @map("ORDER_BY")
+  deliveredById        Int?              @map("DELIVERED_BY")
+  orderStatusId        Int               @map("GDA_ORDER_STATUS_IDGDA_ORDER_STATUS")
+  createdAt            DateTime          @default(now()) @map("CREATED_AT")
+  deletedAt            DateTime?         @map("DELETED_AT")
+  codOrder             String?           @map("COD_ORDER")
+  deliveredAt          DateTime?         @map("DELIVERED_AT")
+  dueAt                DateTime?         @map("DUE_AT")
+  observationDelivered String?           @map("OBSERVATION_DELIVERED")
+  observationOrder     String?           @map("OBSERVATION_ORDER")
+  reasonPurchase       String?           @map("REASON_PURCHASE")
+  orderAt              DateTime?         @map("ORDER_AT")
+  canceledById         Int?              @map("CANCELED_BY")
+  canceledAt           DateTime?         @map("CANCELED_AT")
+  releasedAt           DateTime?         @map("RELEASED_AT")
+  releasedById         Int?              @map("RELEASED_BY")
+  idGroup              Int?              @map("IDGROUP")
+  totalPrice           Float             @default(0) @map("TOTAL_PRICE")
+  lastUpdatedAt        DateTime?         @map("LAST_UPDATED_AT")
+  lastUpdatedId        Int?              @map("LAST_UPDATED_BY")
+  CheckingAccount      CheckingAccount[]
+  deliveredBy          Collaborator?     @relation("collaborator_delivered_orders", fields: [deliveredById], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  orderStatus          GdaOrderStatus    @relation(fields: [orderStatusId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  orderBy              Collaborator      @relation("collaborator_orders", fields: [orderById], references: [id], onUpdate: NoAction)
+  canceledBy           Collaborator?     @relation("collaborator_canceled_by", fields: [canceledById], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  releasedBy           Collaborator?     @relation("collaborator_released_orders", fields: [releasedById], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  lastUpdatedBy        Collaborator?     @relation("collaborator_updated_orders", fields: [lastUpdatedId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  GdaOrderProduct      GdaOrderProduct[]
+  historyProduct       HistoryProduct[]  @relation("history_product_has_order")
+  CollaboratorVoucher  CollaboratorVoucher[]
+
+  @@map("GDA_ORDER")
+}
+model GdaProduct {
+  id                     Int                      @id @default(autoincrement()) @map("IDGDA_PRODUCT")
+  code                   String                   @map("CODE")
+  comercialName          String?                  @map("COMERCIAL_NAME")
+  description            String                   @map("DESCRIPTION")
+  price                  Float
+  quantity               Float?
+  registeredBy           Int                      @map("REGISTERED_BY")
+  createdAt              DateTime                 @default(now()) @map("CREATED_AT")
+  updatedAt              DateTime?                @map("UPDATED_AT")
+  deletedAt              DateTime?                @map("DELETED_AT")
+  highlight              Boolean                  @default(false) @map("HIGHLIGHT")
+  publicationDate        DateTime?                @map("PUBLICATION_DATE")
+  expirationDate         DateTime?                @map("EXPIRATION_DATE")
+  validity               DateTime?                @map("VALIDITY_DATE")
+  saleLimit              Int?                     @map("SALE_LIMIT")
+  type                   String                   @default("PHYSICAL")
+  categoryId             Int?                     @map("GDA_CATEGORY_IDGDA_CATEGORY")
+  category               Categories?              @relation(fields: [categoryId], references: [id])
+  sizeId                 Int?                     @map("GDA_SIZE_IDGDA_SIZE")
+  size                   Sizes?                   @relation(fields: [sizeId], references: [id])
+  detailId               Int?                     @map("GDA_DETAIL_IDGDA_DETAIL")
+  detail                 GdaDetails?              @relation(fields: [detailId], references: [id])
+  typeId                 Int?                     @map("GDA_TYPE_IDGDA_TYPE")
+  typeProduct            GdaTypes?                @relation(fields: [typeId], references: [id])
+  groupId                Int?                     @map("GDA_GROUP_IDGDA_GROUP")
+  group                  ProductGroup?            @relation(fields: [groupId], references: [id])
+  GdaHistoryStockProduct GdaHistoryStockProduct[]
+  GdaOrderProduct        GdaOrderProduct[]
+  productImages          ProductImage[]
+  GdaStockProduct        GdaStockProduct[]
+  vouchers               Voucher[]
+  productStatusId        Int?                     @map("GDA_PRODUCT_STATUS_IDGDA_PRODUCT_STATUS")
+  productsStatus         ProductStatus?           @relation(fields: [productStatusId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  HistoryProduct         HistoryProduct[]         @relation("history_product_has_product")
+  Visibility             Visibility[]
+  productColors          productColors[]
+
+  @@map("GDA_PRODUCT")
+}
+model GdaReasonRemoved {
+  id                     Int                      @id @default(autoincrement()) @map("IDGDA_REASON_REMOVED")
+  reason                 String                   @map("REASON")
+  createdAt              DateTime                 @default(now()) @map("CREATED_AT")
+  deletedAt              DateTime?                @map("DELETED_AT")
+  GdaHistoryStockProduct GdaHistoryStockProduct[]
+
+  @@map("GDA_REASON_REMOVED")
+}
+model GdaStockProduct {
+  id             Int            @id @default(autoincrement()) @map("IDGDA_STOCK_PRODUCT")
+  amount         Float?         @map("AMOUNT")
+  expirationDate DateTime?      @map("EXPIRATION_DATE")
+  registeredBy   Int            @map("REGISTERED_BY")
+  productId      Int            @map("GDA_PRODUCT_IDGDA_PRODUCT")
+  stockId        Int            @map("GDA_STOCK_IDGDA_STOCK")
+  supplierId     Int?           @map("GDA_SUPPLIER_IDGDA_SUPPLIER")
+  reason         String?        @default("")
+  createdAt      DateTime       @default(now()) @map("CREATED_AT")
+  deletedAt      DateTime?      @map("DELETED_AT")
+  autosale       Boolean        @default(false)
+  ShoppingCart   ShoppingCart[]
+  product        GdaProduct     @relation(fields: [productId], references: [id])
+  stock          GdaStock       @relation(fields: [stockId], references: [id])
+  supplier       Supplier?      @relation(fields: [supplierId], references: [id])
+
+  @@map("GDA_STOCK_PRODUCT")
+}
+model GdaStock {
+  id                     Int                      @id @default(autoincrement()) @map("IDGDA_STOCK")
+  description            String                   @map("DESCRIPTION")
+  createdAt              DateTime                 @default(now()) @map("CREATED_AT")
+  deletedAt              DateTime?                @map("DELETED_AT")
+  city                   String                   @default("") @map("CITY")
+  client                 String                   @default("") @map("GDA_ATRIBUTES")
+  campaign               String                   @default("")
+  type                   String?                  @default("PHYSICAL")
+  GdaHistoryStockProduct GdaHistoryStockProduct[]
+  GdaStockProduct        GdaStockProduct[]
+  GdaOrderProduct        GdaOrderProduct[]
+  vouchers               Voucher[]
+
+  @@map("GDA_STOCK")
+}
+model Group {
+  id                    Int                     @id @default(autoincrement())
+  name                  String
+  description           String
+  alias                 String                  @unique
+  uploadId              Int
+  createdAt             DateTime                @default(now()) @map("created_at")
+  order                 Int?                    @map("ORDER")
+  image                 Upload                  @relation(fields: [uploadId], references: [id])
+  historyIndicatorGroup HistoryIndicatorGroup[]
+
+  @@map("GDA_GROUPS")
+}
+model Hierarchy {
+  id                               Int                                @id @default(autoincrement()) @map("IDGDA_HIERARCHY")
+  levelName                        String                             @map("LEVELNAME")
+  levelWeight                      Int                                @map("LEVELWEIGHT")
+  createdAt                        DateTime                           @default(now()) @map("CREATED_AT")
+  deletedAt                        DateTime?                          @map("DELETED_AT")
+  GdaConsolidateCheckingAccount    GdaConsolidateCheckingAccount[]
+  HistoryHierarchyRelationship     HistoryHierarchyRelationship[]
+  Profile                          Profile[]
+  HistoryMonetizationRecalculation HistoryMonetizationRecalculation[]
+
+  @@map("GDA_HIERARCHY")
+}
+model HistoryCollaboratorActive {
+  id             Int           @id @default(autoincrement()) @map("IDGDA_HIERARCHY")
+  collaboratorId Int           @map("IDGDA_COLLABORATORS")
+  entryDate      DateTime      @map("ENTRYDATE")
+  active         String        @map("ACTIVE") @db.NVarChar(50)
+  tansactionId   Int           @map("TRANSACTIONID")
+  collaborator   Collaborator? @relation("history_collaborator_active_has_collaborator", fields: [collaboratorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@map("GDA_HISTORY_COLLABORATOR_ACTIVE")
+}
+model HistoryCollaboratorSector {
+  id             Int           @id(map: "PK_GDA_HISTORY_COLLABORATOR_SECTOR") @default(autoincrement()) @map("IDGDA_HISTORY_COLLABORATOR_SECTOR")
+  createdAt      DateTime?     @map("CREATED_AT") @db.DateTime
+  collaboratorId Int?          @map("IDGDA_COLLABORATORS")
+  sectorId       Int?          @map("IDGDA_SECTOR")
+  transactionId  Int?          @map("TRANSACTIONID")
+  collaborator   Collaborator? @relation(fields: [collaboratorId], references: [id])
+  deletedAt      DateTime?     @map("DELETED_AT")
+
+  @@map("GDA_HISTORY_COLLABORATOR_SECTOR")
+}
+model HistoryHierarchyRelationship {
+  id                  Int           @id @default(autoincrement()) @map("IDGDA_HISTORY_HIERARCHY_RELATIONSHIP")
+  contractorControlId Int           @map("CONTRACTORCONTROLID")
+  parentId            Int?          @map("PARENTIDENTIFICATION")
+  collaboratorId      Int           @map("IDGDA_COLLABORATORS")
+  hierarchyId         Int           @map("IDGDA_HIERARCHY")
+  createdAt           DateTime      @default(now()) @map("CREATED_AT")
+  deletedAt           DateTime?     @map("DELETED_AT")
+  transactionId       Int?          @map("TRANSACTIONID")
+  levelWeight         Int?          @map("LEVELWEIGHT")
+  date                DateTime?     @map("DATE")
+  levelName           String?       @map("LEVELNAME") @db.NVarChar(Max)
+  collaborator        Collaborator  @relation("collaborator_has_hierarchy", fields: [collaboratorId], references: [id], onUpdate: NoAction)
+  hierarchy           Hierarchy     @relation(fields: [hierarchyId], references: [id], onUpdate: NoAction)
+  parent              Collaborator? @relation("collaborator_has_parent", fields: [parentId], references: [id])
+
+  @@index([collaboratorId, hierarchyId])
+  @@map("GDA_HISTORY_HIERARCHY_RELATIONSHIP")
+}
+model HistoryIndicatorGroup {
+  id                       Int           @id @default(autoincrement())
+  indicatorId              Int           @map("indicator_id")
+  sectorId                 Int           @map("sector_id")
+  metricMin                Float?         @map("metric_min")
+  monetization             Int?        @map("monetization")
+  groupId                  Int
+  metricMinNight           Float?       @map("METRIC_MIN_NIGHT")
+  metricMinLatenight       Float?       @map("METRIC_MIN_LATENIGHT")
+  monetizationNight        Float?       @map("MONETIZATION_NIGHT")
+  monetizationLatenight    Float?       @map("MONETIZATION_LATENIGHT")
+  ended_at                 DateTime?     @map("ENDED_AT")
+  started_at               DateTime?     @map("STARTED_AT")
+  createdAt                DateTime      @default(now()) @map("created_at")
+  deletedAt                DateTime?     @map("deleted_at")
+  group                    Group         @relation(fields: [groupId], references: [id])
+  indicator                Indicator     @relation(fields: [indicatorId], references: [id])
+  sector                   Sector        @relation(fields: [sectorId], references: [id])
+
+  @@map("GDA_HISTORY_INDICATOR_GROUP")
+}
+model HistoryMathematicalExpressionIndicator {
+  id                       Int                    @id @default(autoincrement())
+  mathematicalExpressionId Int
+  indicatorId              Int
+  indicator                Indicator              @relation(fields: [indicatorId], references: [id])
+  mathematicalExpression   MathematicalExpression @relation(fields: [mathematicalExpressionId], references: [id])
+  createdAt                DateTime               @default(now()) @map("created_at")
+  deletedAt                DateTime?              @map("deleted_at")
+
+  @@map("GDA_HISTORY_MATHEMATICAL_EXPRESSIONS_INDICATOR")
+}
+
+model HistoryIndicatorSector {
+  id            Int           @id @default(autoincrement())
+  indicatorId   Int           @map("indicator_id")
+  sectorId      Int           @map("sector_id")
+  createdAt     DateTime      @default(now()) @map("created_at")
+  deletedAt     DateTime?     @map("deleted_at")
+  goal          Float?
+  goalNight     Float?       @map("GOAL_NIGHT")
+  goalLatenight  Float?       @map("GOAL_LATENight")
+  active        Boolean?      @map("ACTIVE")
+  alteredById   Int?          @map("ALTERED_BY")
+  ended_at      DateTime?     @map("ENDED_AT")
+  started_at    DateTime?     @map("STARTED_AT")
+  alteredBy     Collaborator? @relation("collaborator_history_indicator_sector", fields: [alteredById], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  indicator     Indicator     @relation(fields: [indicatorId], references: [id])
+  sector        Sector        @relation(fields: [sectorId], references: [id])
+
+  @@unique([sectorId, indicatorId, createdAt])
+  @@map("GDA_HISTORY_INDICATOR_SECTORS")
+}
+model HistoryMonetizationRecalculation {
+  id                 Int           @id @default(autoincrement())
+  resultDate         DateTime?     @map("RESULT_DATE")
+  monetizationDate   DateTime?     @map("MONETIZATION_DATE")
+  resultId           Int?          @map("IDGDA_RESULT")
+  collaboratorId     Int?          @map("IDGDA_COLLABORATOR")
+  indicatorId        Int?          @map("IDGDA_INDICATOR")
+  sectorId           Int?          @map("IDGDA_SECTOR")
+  hierarchyId        Int?          @map("IDGDA_HIERARCHY")
+  monetization       Float?        @map("MONETIZATION")
+  beforeMonetization Float?        @map("BEFORE_MONETIZATION")
+  result             Result?       @relation(fields: [resultId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  collaborator       Collaborator? @relation(fields: [collaboratorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  indicator          Indicator?    @relation(fields: [indicatorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  sector             Sector?       @relation(fields: [sectorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  hierarchy          Hierarchy?    @relation(fields: [hierarchyId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  createdAt          DateTime      @default(now()) @map("CREATED_AT")
+  deletedAt          DateTime?     @default(now()) @map("DELETED_AT")
+
+  @@map("GDA_HISTORY_MONETIZATION_RECALCULATION")
+}
+model HistoryProduct {
+  id                                  Int            @id @default(autoincrement()) @map("IDGDA_PRODUCT")
+  productId                           Int?           @map("GDA_PRODUCT_IDGDA_PRODUCT")
+  orderId                             Int?           @map("GDA_ORDER_IDGDA_ORDER")
+  productStatusId                     Int?           @map("GDA_PRODUCT_STATUS_IDGDA_PRODUCT_STATUS")
+  updatedAt                           DateTime?      @map("UPDATED_AT")
+  updatedId                           Int?           @map("GDA_COLLABORATOR_IDGDA_COLLABORATORS")
+  description                         String         @map("DESCRIPTION")
+  price                               Float
+  highlight                           Int            @default(0) @map("HIGHLIGHT")
+  publicationDate                     DateTime?      @map("PUBLICATION_DATE")
+  productsStatus                      ProductStatus? @relation(fields: [productStatusId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  product                             GdaProduct?    @relation("history_product_has_product", fields: [productId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  order                               GdaOrder?      @relation("history_product_has_order", fields: [orderId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  collaboratorUpdatedHistoryProductBy Collaborator?  @relation("history_product_has_collaborator_updated", fields: [updatedId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  createdAt                           DateTime       @default(now()) @map("CREATED_AT")
+  deletedAt                           DateTime?      @map("DELETED_AT")
+
+  @@map("GDA_HISTORY_PRODUCT")
+}
+
+model HistoryProfileCollaboratorAdministrationRelationship {
+  id             Int          @id @default(autoincrement()) @map("IDGDA_HISTORY_PROFILE_COLLABORATOR_ADMINISTRATION_RELATIONSHIP")
+  parentId       Int          @map("PARENTIDENTIFICATION")
+  collaboratorId Int          @map("IDGDA_COLLABORATORS")
+  createdAt      DateTime     @default(now()) @map("CREATED_AT")
+  deletedAt      DateTime?    @map("DELETED_AT")
+  date           DateTime?    @map("DATE")
+  collaborator   Collaborator @relation("collaborator_has_administrator", fields: [collaboratorId], references: [id], onUpdate: NoAction)
+  parent         Collaborator @relation("collaborator_has_administrator_parent", fields: [parentId], references: [id])
+
+  @@index([collaboratorId, parentId])
+  @@map("GDA_HISTORY_PROFILE_COLLABORATOR_ADMINISTRATION")
+}
+model Indicator {
+  id                                     Int                                      @id @default(autoincrement()) @map("IDGDA_INDICATOR")
+  name                                   String                                   @map("NAME")
+  description                            String                                   @map("DESCRIPTION")
+  type                                   String?                                  @map("TYPE")
+  status                                 Boolean?                                 @map("STATUS")
+  weight                                 Int?                                     @default(1) @map("WEIGHT")
+  calculationType                        String?                                  @map("CALCULATION_TYPE")
+  createdAt                              DateTime                                 @default(now()) @map("created_at")
+  deletedAt                              DateTime?                                @map("deleted_at")
+  CheckingAccount                        CheckingAccount[]
+  GdaConsolidateCheckingAccount          GdaConsolidateCheckingAccount[]
+  ConsolidatedResult                     ConsolidatedResult[]
+  historyIndicatorGroups                 HistoryIndicatorGroup[]
+  historyIndicatorSectors                HistoryIndicatorSector[]
+  historyMathematicalExpressionIndicator HistoryMathematicalExpressionIndicator[]
+  results                                Result[]
+  BasketIndicator                        BasketIndicator[]
+  HistoryMonetizationRecalculation       HistoryMonetizationRecalculation[]
+  HistoryScoreIndicatorSector            HistoryScoreIndicatorSector[]
+
+  @@map("GDA_INDICATOR")
+}
+
+model LogIndicatorImport {
+  id             Int           @id @default(autoincrement()) @map("INDICATOR_ID")
+  collaboratorId Int?          @map("COLABORATOR_ID")
+  codeImport     Int           @map("CODE_IMPORT")
+  code           Int?          @map("CODE")
+  name           String?       @map("NAME")
+  description    String?       @map("DESCRIPTION")
+  type           String?       @map("TYPE")
+  status         Boolean?      @map("STATUS")
+  weight         Int?          @map("WEIGHT")
+  createdAt      DateTime      @default(now()) @map("CREATED_AT")
+  deletedAt      DateTime?     @map("DELETED")
+  collaborator   Collaborator? @relation("log_indicator_import_has_collaborator", fields: [collaboratorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@map("GDA_LOG_INDICATOR_IMPORT")
+}
+
+model LogRequest {
+  id      Int     @id(map: "PK_dbo.GDA_LOGREQUEST") @default(autoincrement()) @map("IDGDA_LOGREQUEST")
+  request String? @map("REQUEST") @db.NVarChar(Max)
+  route   String  @map("ROUTE") @db.NVarChar(200)
+  return  Int     @map("RETURN")
+
+  @@map("GDA_LOGREQUEST")
+}
+model MathematicalExpression {
+  id                                     Int                                      @id @default(autoincrement())
+  expression                             String
+  createdAt                              DateTime                                 @default(now()) @map("created_at")
+  deletedAt                              DateTime?                                @map("deleted_at")
+  HistoryMathematicalExpressionIndicator HistoryMathematicalExpressionIndicator[]
+
+  @@map("GDA_MATHEMATICAL_EXPRESSIONS")
+}
+
+model Permission {
+  id                Int                 @id @default(autoincrement())
+  action            String
+  resource          String
+  createdAt         DateTime            @default(now()) @map("created_at")
+  deletedAt         DateTime?           @map("deleted_at")
+  ProfilePermission ProfilePermission[]
+
+  @@map("GDA_PERMISSIONS")
+}
+model ProductImage {
+  id        Int        @id @default(autoincrement()) @map("IDGDA_HISTORY_STOCK_PRODUCT")
+  uploadId  Int
+  productId Int
+  product   GdaProduct @relation(fields: [productId], references: [id])
+  upload    Upload     @relation(fields: [uploadId], references: [id])
+
+  @@map("GDA_PRODUCT_IMAGES")
+}
+model ProductStatus {
+  id             Int              @id @default(autoincrement()) @map("IDGDA_PRODUCT_STATUS")
+  status         String?          @map("STATUS")
+  createdAt      DateTime         @default(now()) @map("CREATED_AT")
+  deletedAt      DateTime?        @map("DELETED_AT")
+  GdaProduct     GdaProduct[]
+  HistoryProduct HistoryProduct[]
+
+  @@map("GDA_PRODUCT_STATUS")
+}
+
+model Product {
+  id             Int          @id @default(autoincrement()) @map("IDGDA_PRODUCT")
+  description    String
+  code           String
+  createdAt      DateTime     @default(now()) @map("created_at")
+  deletedAt      DateTime?    @map("deleted_at")
+  collaboratorId Int
+  price          Float
+  registeredBy   Collaborator @relation(fields: [collaboratorId], references: [id])
+  GdaProductItem GdaProductItem[]
+
+  @@map("GDA_PRODUCTS")
+}
+
+model ProfileCollaboratorAdministration {
+  id                Int                 @id(map: "GDA_PROFILE_COLLABORATOR_ADMINISTRATION_pkey") @default(autoincrement())
+  name              String              @unique
+  createdAt         DateTime            @default(now(), map: "GDA_PROFILE_COLLABORATOR_ADMINISTRATION_reated_at_df") @map("created_at")
+  deletedAt         DateTime?           @map("deleted_at")
+  Collaborator      Collaborator[]
+  ProfilePermission ProfilePermission[]
+
+  @@map("GDA_PROFILE_COLLABORATOR_ADMINISTRATION")
+}
+
+model ProfilePermission {
+  id                                  Int                                @id @default(autoincrement())
+  permissionId                        Int                                @map("permission_id")
+  profileId                           Int?                               @map("profile_id")
+  profileCollaboratorAdministrationId Int?                               @map("profile_collaborator_administration_id")
+  createdAt                           DateTime                           @default(now()) @map("created_at")
+  permission                          Permission                         @relation(fields: [permissionId], references: [id])
+  profile                             Profile?                           @relation(fields: [profileId], references: [id])
+  profileCollaboratorAdministration   ProfileCollaboratorAdministration? @relation(fields: [profileCollaboratorAdministrationId], references: [id])
+
+  @@map("GDA_PROFILE_PERMISSIONS")
+}
+model Profile {
+  id                Int                 @id(map: "GDA_PRFILES_pkey") @default(autoincrement())
+  profile           String
+  level             Int
+  hierarchyId       Int                 @map("hierarchy_id")
+  createdAt         DateTime            @default(now(), map: "GDA_PRFILES_created_at_df") @map("created_at")
+  deletedAt         DateTime?           @map("deleted_at")
+  ProfilePermission ProfilePermission[]
+  hierarchy         Hierarchy           @relation(fields: [hierarchyId], references: [id], map: "GDA_PRFILES_hierarchy_id_fkey")
+
+  @@map("GDA_PROFILES")
+}
+model Result {
+  id                               Int                                @id @default(autoincrement()) @map("IDGDA_RESULT")
+  indicatorId                      Int?                               @map("INDICADORID")
+  transactionId                    Int?                               @map("TRANSACTIONID")
+  result                           Float?                             @map("RESULT")
+  createdAt                        DateTime                           @default(now()) @map("CREATED_AT")
+  deletedAt                        DateTime?                          @map("DELETED_AT")
+  collaboratorId                   Int?                               @map("IDGDA_COLLABORATORS")
+  factorsList                      String?                            @map("factors")
+  ConsolidatedResult               ConsolidatedResult[]
+  factors                          Factor[]
+  collaborator                     Collaborator?                      @relation(fields: [collaboratorId], references: [id], onDelete: NoAction)
+  indicator                        Indicator?                         @relation(fields: [indicatorId], references: [id])
+  transaction                      Transaction?                       @relation(fields: [transactionId], references: [id])
+  CheckingAccount                  CheckingAccount[]
+  GdaConsolidateCheckingAccount    GdaConsolidateCheckingAccount[]
+  HistoryMonetizationRecalculation HistoryMonetizationRecalculation[]
+
+  @@index([collaboratorId, transactionId, indicatorId])
+  @@map("GDA_RESULT")
+}
+model Sector {
+  id                               Int                                @id @map("IDGDA_SECTOR")
+  name                             String                             @map("NAME")
+  level                            Int                                @map("LEVEL")
+  sector                           Int?                               @map("SECTOR")
+  subSector                        Int?                               @map("SUBSECTOR")
+  createdAt                        DateTime                           @default(now()) @map("CREATED_AT")
+  deletedAt                        DateTime?                          @map("DELETED_AT")
+  GdaConsolidateCheckingAccount    GdaConsolidateCheckingAccount[]
+  consolidatedResult               ConsolidatedResult[]
+  HistoryIndicatorGroup            HistoryIndicatorGroup[]
+  historyIndicatorSectors          HistoryIndicatorSector[]
+  BasketIndicator                  BasketIndicator[]
+  HistoryMonetizationRecalculation HistoryMonetizationRecalculation[]
+  HistoryScoreIndicatorSector      HistoryScoreIndicatorSector[]
+
+  @@map("GDA_SECTOR")
+}
+model ShoppingCart {
+  id             Int             @id @default(autoincrement()) @map("IDGDA_SHOPPINGCART")
+  orderedById    Int             @map("ORDER_BY")
+  amount         Int             @map("AMOUNT")
+  stockProductId Int             @map("STOCK_PRODUCT_ID")
+  orderedBy      Collaborator    @relation(fields: [orderedById], references: [id])
+  stockProduct   GdaStockProduct @relation(fields: [stockProductId], references: [id])
+
+  @@map("GDA_SHOPPING_CART")
+}
+model Token {
+  id     Int     @id(map: "PK_dbo.GDA_TOKEN") @default(autoincrement()) @map("IDGDA_TOKEN")
+  token  String? @map("TOKEN") @db.NVarChar(Max)
+  active Int     @map("ACTIVE")
+
+  @@map("GDA_TOKEN")
+}
+model Transaction {
+  id                 Int                  @id @default(autoincrement()) @map("IDGDA_TRANSACTION")
+  identification     String               @map("TRANSACTIONID")
+  createdAt          DateTime             @default(now()) @map("CREATED_AT")
+  updatedAt          DateTime?            @map("UPDATED_AT")
+  complete           Boolean              @map("COMPLETE")
+  status             String               @default("READY") @map("STATUS")
+  ConsolidatedResult ConsolidatedResult[]
+  Result             Result[]
+
+  @@map("GDA_TRANSACTION")
+}
+model Upload {
+  id           Int            @id @default(autoincrement())
+  originalName String
+  key          String         @unique
+  type         String
+  url          String
+  createdAt    DateTime       @default(now()) @map("created_at")
+  Group        Group[]
+  ProductImage ProductImage[]
+
+  @@map("GDA_UPLOADS")
+}
+model Visibility {
+  id        Int        @id @default(autoincrement()) @map("IDGDA_VISIBILITY")
+  type      String     @map("TYPE")
+  value     String     @map("VALUE")
+  productId Int        @map("GDA_PRODUCT_IDGDA_PRODUCT_ID")
+  product   GdaProduct @relation(fields: [productId], references: [id])
+
+  @@map("GDA_VISIBILITY")
+}
+model Voucher {
+  id                  Int                   @id @default(autoincrement()) @map("IDGDA_VOUCHERS")
+  productId           Int
+  stockId             Int?
+  voucher             String
+  status              String                @default("AVAILABLE")
+  voucherValidity     DateTime?
+  CollaboratorVoucher CollaboratorVoucher[]
+  GdaOrderProduct     GdaOrderProduct[]
+  product             GdaProduct            @relation(fields: [productId], references: [id])
+  stock               GdaStock?             @relation(fields: [stockId], references: [id])
+
+  @@map("GDA_VOUCHERS")
+}
+
+model Supplier {
+  id                            Int                             @id @default(autoincrement()) @map("IDGDA_SUPPLIER")
+  supplierName                  String                          @map("SUPPLIER_NAME")
+  createdAt                     DateTime                        @default(now()) @map("CREATED_AT")
+  deletedAt                     DateTime?                       @map("DELETED_AT")
+  ord                           Int?                            @map("ORD")
+  createdByCollaboratorId       Int
+  createBy                      Collaborator                    @relation(fields: [createdByCollaboratorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  GdaStockProduct               GdaStockProduct[]
+  GdaHistoryStockProduct        GdaHistoryStockProduct[]
+  GdaOrderProduct               GdaOrderProduct[]
+
+  @@map("GDA_SUPPLIER")
+}
+
+model Categories {
+  id                            Int                             @id @default(autoincrement()) @map("IDGDA_CATEGORY")
+  categoryName                  String                          @map("CATEGORY_NAME")
+  createdAt                     DateTime                        @default(now()) @map("CREATED_AT")
+  ord                           Int?                            @map("ORD")
+  deletedAt                     DateTime?                       @map("DELETED_AT")
+  createdByCollaboratorId       Int
+  createBy                      Collaborator                    @relation(fields: [createdByCollaboratorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  GdaProduct                    GdaProduct[]
+
+  @@map("GDA_CATEGORIES")
+}
+
+
+model Holidays {
+  id                            Int                             @id @default(autoincrement()) @map("IDGDA_HOLIDAY")
+  holidayDate                   DateTime                        @map("HOLYDAY_DATE")
+  site                          String                          @map("SITE")
+  type                          String                          @map("TYPE")
+  createdAt                     DateTime                        @default(now()) @map("CREATED_AT")
+  deletedAt                     DateTime?                       @map("DELETED_AT")
+  createdByCollaboratorId       Int
+  createBy                      Collaborator                    @relation(fields: [createdByCollaboratorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@map("GDA_HOLIDAYS")
+}
+
+model HistoryScoreIndicatorSector {
+  id          Int           @id @default(autoincrement())
+  indicatorId Int           @map("INDICATOR_ID")
+  sectorId    Int           @map("SECTOR_ID")
+  createdAt   DateTime      @default(now()) @map("created_at")
+  weightScore Float         @map("WEIGHT_SCORE")
+  alteredById Int?          @map("ALTERED_BY")
+  ended_at    DateTime?     @map("ENDED_AT")
+  started_at  DateTime?     @map("STARTED_AT")
+  alteredBy   Collaborator? @relation("collaborator_history_score_indicator_sector", fields: [alteredById], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  indicator   Indicator     @relation(fields: [indicatorId], references: [id])
+  sector      Sector        @relation(fields: [sectorId], references: [id])
+
+  @@unique([sectorId, indicatorId, createdAt])
+  @@map("GDA_HISTORY_SCORE_INDICATOR_SECTOR")
+}
+model GdaProductItem {
+  id              Int           @id @default(autoincrement()) @map("IDGDA_PRODUCT_ITEM")
+  product         String        @map("PRODUTO")
+  status          String?       @map("STATUS")
+  productId       Int           @map("GDA_PRODUCT_IDGDA_PRODUCT")
+  createdAt       DateTime      @default(now()) @map("CREATED_AT")
+  validatedAt     DateTime?     @map("VALIDATED_AT")
+  deletedAt       DateTime?     @map("DELETED_AT")
+  productItem     Product       @relation(fields: [productId], references: [id])
+  GdaOrderProduct GdaOrderProduct[]
+
+  @@map("GDA_PRODUCT_ITEM")
+}
+
+model Sizes {
+  id                            Int                             @id @default(autoincrement()) @map("IDGDA_SIZE")
+  sizeName                      String                          @map("SIZE_NAME")
+  createdAt                     DateTime                        @default(now()) @map("CREATED_AT")
+  deletedAt                     DateTime?                       @map("DELETED_AT")
+  ord                           Int?                            @map("ORD")
+  createdByCollaboratorId       Int
+  createBy                      Collaborator                    @relation(fields: [createdByCollaboratorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  GdaProduct                    GdaProduct[]
+
+  @@map("GDA_SIZES")
+}
+
+model GdaTypes {
+  id                            Int                             @id @default(autoincrement()) @map("IDGDA_TYPES")
+  type                          String                          @map("TYPE")
+  createdAt                     DateTime                        @default(now()) @map("CREATED_AT")
+  createdByCollaboratorId       Int
+  createBy                      Collaborator                    @relation(fields: [createdByCollaboratorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  GdaProduct                    GdaProduct[]
+  @@map("GDA_TYPES")
+}
+model GdaDetails {
+  id                            Int                             @id @default(autoincrement()) @map("IDGDA_DETAILS")
+  detail                        String                          @map("DETAIL")
+  ord                           Int?                            @map("ORD")
+  createdAt                     DateTime                        @default(now()) @map("CREATED_AT")
+  createdByCollaboratorId       Int
+  createBy                      Collaborator                    @relation(fields: [createdByCollaboratorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  GdaProduct                    GdaProduct[]
+  @@map("GDA_DETAILS")
+}
+
+model ProductGroup {
+  id                            Int                             @id @default(autoincrement()) @map("IDGDA_PRODUCT_GROUP")
+  groupName                     String                          @map("PRODUCT_GROUP_NAME")
+  createdAt                     DateTime                        @default(now()) @map("CREATED_AT")
+  ord                           Int?                            @map("ORD")
+  deletedAt                     DateTime?                       @map("DELETED_AT")
+  createdByCollaboratorId       Int
+  createBy                      Collaborator                    @relation(fields: [createdByCollaboratorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  GdaProduct                    GdaProduct[]
+
+  @@map("GDA_PRODUCT_GROUP")
+}
+
+model productColors {
+  id                            Int                             @id @default(autoincrement()) @map("IDGDA_COLORS")
+  color                         String                          @map("COLOR")
+  ord                           Int?                            @map("ORD")
+  createdAt                     DateTime                        @default(now()) @map("CREATED_AT")
+  createdByCollaboratorId       Int
+  createdBy                     Collaborator                    @relation(fields: [createdByCollaboratorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  GdaProduct                    GdaProduct[]
+
+  @@map("GDA_PRODUCT_COLORS")
+}

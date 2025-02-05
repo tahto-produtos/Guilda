@@ -1,0 +1,13 @@
+model GdaProductItem {
+  id              Int           @id @default(autoincrement()) @map("IDGDA_PRODUCT_ITEM")
+  product         String        @map("PRODUTO")
+  status          String?       @map("STATUS")
+  productId       Int           @map("GDA_PRODUCT_IDGDA_PRODUCT")
+  createdAt       DateTime      @default(now()) @map("CREATED_AT")
+  validatedAt     DateTime?     @map("VALIDATED_AT")
+  deletedAt       DateTime?     @map("DELETED_AT")
+  productItem     Product       @relation(fields: [productId], references: [id])
+  GdaOrderProduct GdaOrderProduct[]
+
+  @@map("GDA_PRODUCT_ITEM")
+}

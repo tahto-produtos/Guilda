@@ -1,0 +1,11 @@
+model HistoryMathematicalExpressionIndicator {
+  id                       Int                    @id @default(autoincrement())
+  mathematicalExpressionId Int
+  indicatorId              Int
+  indicator                Indicator              @relation(fields: [indicatorId], references: [id])
+  mathematicalExpression   MathematicalExpression @relation(fields: [mathematicalExpressionId], references: [id])
+  createdAt                DateTime               @default(now()) @map("created_at")
+  deletedAt                DateTime?              @map("deleted_at")
+
+  @@map("GDA_HISTORY_MATHEMATICAL_EXPRESSIONS_INDICATOR")
+}

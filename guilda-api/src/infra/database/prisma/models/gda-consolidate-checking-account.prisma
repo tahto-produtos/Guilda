@@ -1,0 +1,20 @@
+model GdaConsolidateCheckingAccount {
+  id                Int             @id @default(autoincrement())
+  monetization      Float?
+  checkingAccountId Int             @map("GDA_CHECKING_ACCOUNT_IDGDA_CHECKING_ACCOUNT")
+  hierarchyId       Int?            @map("GDA_HIERARCHY_IDGDA_HIERARCHY")
+  indicatorId       Int             @map("GDA_INDICATOR_IDGDA_INDICATOR")
+  sectorId          Int             @map("GDA_SECTOR_IDGDA_SECTOR")
+  resultId          Int?            @map("IDGDA_RESULT")
+  resultDate        DateTime?       @map("RESULT_DATE")
+  weight            Int?            @map("WEIGHT") @default(1)
+  createdAt         DateTime        @default(now()) @map("CREATED_AT")
+  deletedAt         DateTime?       @default(now()) @map("DELETED_AT")
+  checkingAccount   CheckingAccount @relation(fields: [checkingAccountId], references: [id], onUpdate: NoAction)
+  hierarchy         Hierarchy?      @relation(fields: [hierarchyId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  indicator         Indicator       @relation(fields: [indicatorId], references: [id], onUpdate: NoAction)
+  sector            Sector          @relation(fields: [sectorId], references: [id], onUpdate: NoAction)
+  result            Result?         @relation(fields: [resultId], references: [id])
+
+  @@map("GDA_CONSOLIDATE_CHECKING_ACCOUNT")
+}

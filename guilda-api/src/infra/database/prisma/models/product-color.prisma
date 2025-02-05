@@ -1,0 +1,11 @@
+model productColors {
+  id                            Int                             @id @default(autoincrement()) @map("IDGDA_COLORS")
+  color                         String                          @map("COLOR")
+  ord                           Int?                            @map("ORD")
+  createdAt                     DateTime                        @default(now()) @map("CREATED_AT")
+  createdByCollaboratorId       Int
+  createdBy                     Collaborator                    @relation(fields: [createdByCollaboratorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  GdaProduct                    GdaProduct[]
+
+  @@map("GDA_PRODUCT_COLORS")
+}

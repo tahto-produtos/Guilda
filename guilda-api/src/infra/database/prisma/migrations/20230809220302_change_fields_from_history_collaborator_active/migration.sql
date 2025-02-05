@@ -1,0 +1,27 @@
+/*
+  Warnings:
+
+  - Changed the type of `ENTRYDATE` on the `GDA_HISTORY_COLLABORATOR_ACTIVE` table. No cast exists, the column would be dropped and recreated, which cannot be done if there is data, since the column is required.
+
+*/
+BEGIN TRY
+
+BEGIN TRAN;
+
+-- AlterTable
+ALTER TABLE [dbo].[GDA_HISTORY_COLLABORATOR_ACTIVE] ALTER COLUMN [ACTIVE] NVARCHAR(50) NOT NULL;
+ALTER TABLE [dbo].[GDA_HISTORY_COLLABORATOR_ACTIVE] DROP COLUMN [ENTRYDATE];
+ALTER TABLE [dbo].[GDA_HISTORY_COLLABORATOR_ACTIVE] ADD [ENTRYDATE] DATETIME2 NOT NULL;
+
+COMMIT TRAN;
+
+END TRY
+BEGIN CATCH
+
+IF @@TRANCOUNT > 0
+BEGIN
+    ROLLBACK TRAN;
+END;
+THROW
+
+END CATCH

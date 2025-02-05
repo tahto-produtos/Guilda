@@ -1,0 +1,19 @@
+model GdaStockProduct {
+  id             Int            @id @default(autoincrement()) @map("IDGDA_STOCK_PRODUCT")
+  amount         Float?         @map("AMOUNT")
+  expirationDate DateTime?      @map("EXPIRATION_DATE")
+  registeredBy   Int            @map("REGISTERED_BY")
+  productId      Int            @map("GDA_PRODUCT_IDGDA_PRODUCT")
+  stockId        Int            @map("GDA_STOCK_IDGDA_STOCK")
+  supplierId     Int?           @map("GDA_SUPPLIER_IDGDA_SUPPLIER")
+  reason         String?        @default("")
+  createdAt      DateTime       @default(now()) @map("CREATED_AT")
+  deletedAt      DateTime?      @map("DELETED_AT")
+  autosale       Boolean        @default(false)
+  ShoppingCart   ShoppingCart[]
+  product        GdaProduct     @relation(fields: [productId], references: [id])
+  stock          GdaStock       @relation(fields: [stockId], references: [id])
+  supplier       Supplier?      @relation(fields: [supplierId], references: [id])
+
+  @@map("GDA_STOCK_PRODUCT")
+}

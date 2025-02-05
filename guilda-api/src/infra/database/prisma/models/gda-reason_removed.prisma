@@ -1,0 +1,9 @@
+model GdaReasonRemoved {
+  id                     Int                      @id @default(autoincrement()) @map("IDGDA_REASON_REMOVED")
+  reason                 String                   @map("REASON")
+  createdAt              DateTime                 @default(now()) @map("CREATED_AT")
+  deletedAt              DateTime?                @map("DELETED_AT")
+  GdaHistoryStockProduct GdaHistoryStockProduct[]
+
+  @@map("GDA_REASON_REMOVED")
+}

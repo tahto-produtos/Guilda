@@ -1,0 +1,12 @@
+model CollaboratorVoucher {
+ id             Int          @id @default(autoincrement()) @map("IDGDA_COLLABORATOR_VOUCHER")
+  collaboratorId Int
+  voucherId      Int
+  orderId        Int          @map("GDA_IDGDA_ORDER")
+  createdAt      DateTime     @default(now()) @map("CREATED_AT")
+  collaborator   Collaborator @relation(fields: [collaboratorId], references: [id])
+  voucher        Voucher      @relation(fields: [voucherId], references: [id])
+  order          GdaOrder     @relation(fields: [orderId], references: [id])
+
+  @@map("GDA_COLLABORATOR_VOUCHER")
+}

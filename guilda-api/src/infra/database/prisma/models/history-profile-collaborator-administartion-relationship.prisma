@@ -1,0 +1,13 @@
+model HistoryProfileCollaboratorAdministrationRelationship {
+  id                                          Int                                   @id @default(autoincrement()) @map("IDGDA_HISTORY_PROFILE_COLLABORATOR_ADMINISTRATION_RELATIONSHIP")
+  parentId                                    Int                                   @map("PARENTIDENTIFICATION")
+  collaboratorId                              Int                                   @map("IDGDA_COLLABORATORS")
+  createdAt                                   DateTime                              @default(now()) @map("CREATED_AT")
+  deletedAt                                   DateTime?                             @map("DELETED_AT")
+  date                                        DateTime?                             @map("DATE")
+  collaborator                                Collaborator                          @relation("collaborator_has_administrator", fields: [collaboratorId], references: [id], onUpdate: NoAction)
+  parent                                      Collaborator                          @relation("collaborator_has_administrator_parent", fields: [parentId], references: [id])
+
+  @@index([collaboratorId, parentId])
+  @@map("GDA_HISTORY_PROFILE_COLLABORATOR_ADMINISTRATION")
+}

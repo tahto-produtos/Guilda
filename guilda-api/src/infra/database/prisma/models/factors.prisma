@@ -1,0 +1,9 @@
+model Factor {
+  id       Int    @id @default(autoincrement()) @map("IDGDA_FACTOR")
+  index    Int    @map("index")
+  value    Float  @map("factor")
+  resultId Int    @map("IDGDA_RESULT")
+  result   Result @relation(fields: [resultId], references: [id])
+
+  @@map("GDA_FACTOR")
+}

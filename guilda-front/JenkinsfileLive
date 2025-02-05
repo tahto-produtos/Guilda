@@ -1,0 +1,75 @@
+pipeline {
+  agent {
+    node {
+      label 'workspace-api'
+      customWorkspace 'C:/Users/Administrator/Documents/Guilda/guilda-workspace/guilda-front-test/guilda-front'
+    }
+  }
+ 
+  tools {nodejs "node"}
+ 
+  stages {
+    stage('Cloning Git Repository') {
+      when {
+        expression { return params.current_status == "closed" && params.merged == true && params.branch == "environment" }
+      }
+      steps {
+         git 'https://github.com/Focare/guilda-front.git'
+      }
+    }
+
+    stage('Git Checkout branch environment') {
+      when {
+        expression { return params.current_status == "closed" && params.merged == true && params.branch == "environment" }
+      }
+      steps {
+        bat 'git checkout environment'
+      }
+    }
+
+    stage('Git pull') {
+      when {
+        expression { return params.current_status == "closed" && params.merged == true && params.branch == "environment" }
+      }
+      steps {
+        bat 'git pull origin environment'
+      }
+    }
+      
+    stage('Install All Dependencies') {
+      when {
+        expression { return params.current_status == "closed" && params.merged == true && params.branch == "environment" }
+      }
+      steps {
+        bat 'npm install'
+      }
+    }
+    
+    /*stage('Delete folder out') {
+      when {
+        expression { return params.current_status == "synchronize" && params.merged == false }
+      }
+      steps {
+        bat 'rmdir out /s /q'
+      }
+    }*/
+
+    stage('Build Application') {
+      when {
+        expression { return params.current_status == "closed" && params.merged == true && params.branch == "environment" }
+      }
+      steps {
+        bat 'npm run build'
+      }
+    }
+
+    stage('Reload Application PM2') {
+      when {
+        expression { return params.current_status == "closed" && params.merged == true && params.branch == "environment" }
+      }
+      steps {
+        bat 'npx pm2 reload ecosystem.config.js --update-env'
+      }
+    }
+  }
+}

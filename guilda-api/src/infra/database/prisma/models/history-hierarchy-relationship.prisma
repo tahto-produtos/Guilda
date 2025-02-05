@@ -1,0 +1,19 @@
+model HistoryHierarchyRelationship {
+  id                  Int           @id @default(autoincrement()) @map("IDGDA_HISTORY_HIERARCHY_RELATIONSHIP")
+  contractorControlId Int           @map("CONTRACTORCONTROLID")
+  parentId            Int?          @map("PARENTIDENTIFICATION")
+  collaboratorId      Int           @map("IDGDA_COLLABORATORS")
+  hierarchyId         Int           @map("IDGDA_HIERARCHY")
+  createdAt           DateTime      @default(now()) @map("CREATED_AT")
+  deletedAt           DateTime?     @map("DELETED_AT")
+  transactionId       Int?          @map("TRANSACTIONID")
+  levelWeight         Int?          @map("LEVELWEIGHT")
+  date                DateTime?     @map("DATE")
+  levelName           String?       @map("LEVELNAME") @db.NVarChar(Max)
+  collaborator        Collaborator  @relation("collaborator_has_hierarchy", fields: [collaboratorId], references: [id], onUpdate: NoAction)
+  hierarchy           Hierarchy     @relation(fields: [hierarchyId], references: [id], onUpdate: NoAction)
+  parent              Collaborator? @relation("collaborator_has_parent", fields: [parentId], references: [id])
+
+  @@index([collaboratorId, hierarchyId])
+  @@map("GDA_HISTORY_HIERARCHY_RELATIONSHIP")
+}

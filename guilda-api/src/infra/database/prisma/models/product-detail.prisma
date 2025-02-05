@@ -1,0 +1,12 @@
+model ProductDetail {
+  id                            Int                             @id @default(autoincrement()) @map("IDGDA_PRODUCT_DETAIL")
+  detailName                    String                          @map("PRODUCT_DETAIL_NAME")
+  ord                           Int?                            @map("ORD")
+  createdAt                     DateTime                        @default(now()) @map("CREATED_AT")
+  deletedAt                     DateTime?                       @map("DELETED_AT")
+  createdByCollaboratorId       Int
+  createBy                      Collaborator                    @relation(fields: [createdByCollaboratorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  GdaProduct                    GdaProduct[]
+
+  @@map("GDA_PRODUCT_DETAIL")
+}
